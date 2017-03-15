@@ -34,9 +34,9 @@
 		   <?php the_excerpt(); ?>
 		  </div>
 		  
-		  <div class="text-center">
+		  <div class="caption">
 		  
-		  <a href="<?php esc_url(the_permalink()); ?>" class="button button--moema"><?php esc_html_e( 'Learn More', 'hedmark' ); ?></a>
+		  <a href="<?php esc_url(the_permalink()); ?>"><button><?php esc_html_e( 'Learn More', 'hedmark' ); ?></button></a>
 		 
 		  </div>
 		  

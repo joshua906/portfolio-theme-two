@@ -1109,8 +1109,8 @@ ul.standard-social-icons li a {
   display: inline-block;
   font-family: 'FontAwesome';
   font-size: 11px;
-  color: #d2a74d;
-  border: 1px solid #d2a74d;
+  color: #222;
+  border: 1px solid #222;
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
   border-radius: 100%;
@@ -1889,10 +1889,9 @@ STANDARD POST
 
 
 h2.standard-post-title {
-  text-align: center;
+  text-align: left;
   margin: 12px 0 20px 0;
-  text-transform:uppercase;
-  letter-spacing:2px;
+  letter-spacing:0px;
 }
 
 h2.standard-post-title a {
@@ -1916,10 +1915,9 @@ h2.standard-post-title a:hover {
 .standard-meta {
   color: #d2a74d;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 0px;
   font-size: 11px;
-  
-  text-align: center;
+  text-align: left;
 }
 
 .standard-meta span a {

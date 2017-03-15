@@ -34,24 +34,13 @@
 		   <?php the_excerpt(); ?>
 		  </div>
 		  
-		  <div class="text-center">
+		  <div class="caption">
 		  
-		  <a href="<?php esc_url(the_permalink()); ?>" class="button button--moema"><?php esc_html_e( 'Learn More', 'hedmark' ); ?></a>
+		  <a href="<?php esc_url(the_permalink()); ?>"><button><?php esc_html_e( 'Learn More', 'hedmark' ); ?></button></a>
 		 
 		  </div>
 		  
-		  <div class="share-date-author">
-		  <div class="standard-share">
-		  <?php get_template_part ( 'inc/social', 'share' );  ?>
-          </div>
-		  <div class="standard-date">
-		    <span class="date"><?php the_time('jS F, Y') ?></span> 
-			<span class="author">
-			<a href="<?php echo esc_url(get_author_posts_url( get_the_author_meta( 'ID' ) )); ?>" rel="author">
-			<?php the_author_meta( 'display_name' ); ?>
-			</a>
-			</span>
-		  </div>   
+
 		  
 		  
 		  

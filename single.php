@@ -2,6 +2,7 @@
 global $hedmark_option;
 
 get_header(); ?>
+
 	<div class="main-hero">
 		<div class="container-post">
 		<div class="col-md-12">
@@ -31,7 +32,6 @@ get_header(); ?>
 
           <h2 class="single-post-title"><?php esc_html(the_title()); ?></h2>
 		  <div class="single-article-meta">
-		    <span class="date"><?php the_time('jS F, Y') ?></span> 
 			<span class="author"><?php esc_html_e( 'by', 'hedmark' ); ?>
 			<a href="<?php echo esc_url(get_author_posts_url( get_the_author_meta( 'ID' ) )); ?>" rel="author">
 			<?php the_author_meta( 'display_name' ); ?>

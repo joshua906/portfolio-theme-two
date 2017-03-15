@@ -31,7 +31,7 @@
 		         
 		  <div class="raj-standard-divider"></div>		  
 		  <div class="kt-standard-excerpt">
-		   <?php the_excerpt(); ?>
+			  <p><?php echo wp_trim_words( get_the_content(), 50, '...' ); ?></p>
 		  </div>
 		  
 		  <div class="caption">

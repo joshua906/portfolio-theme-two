@@ -175,6 +175,9 @@ include_once( get_template_directory() . '/widgets/kt-code-banner.php' );
 include_once( get_template_directory() . '/widgets/kt-facebook-like.php' );
 
 
+include_once( get_template_directory() . '/inc/kt-user-fields.php' );
+include_once( get_template_directory() . '/inc/register-scripts.php' );
+include_once( get_template_directory() . '/inc/theme-options.php' );
 
 
 

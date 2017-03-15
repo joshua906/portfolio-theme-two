@@ -4,29 +4,34 @@ global $hedmark_option;
 
 get_header(); ?>
 
-<!--Blog hero-->
+<!--Blog hero
 <div class="container">
 <div class="blog-hero">
-
+		<div class="row">
+			<div class="col-md-12">
+				<h1 class="small-font-family module"> Latest News and Insight</h1>
+			</div>
+		</div>
 		
 	</div>
 </div>
-<!-- blog header 
+-->
+<!-- blog header -->
 <div class="main-hero">
 			<div class="container">
 			<div class="row">
 				<div class="col-md-9">
 					<div class="">
 
-						<h1 class="small-font-family module">Blog</h1>
+						<h1 class="small-font-family module"><b>Latest News and Insight</b></h1>
 						
 
 					</div>
 				</div>
 			</div>
 			</div>
-		</div>
--->
+</div>
+
 	
 			<div class="blog-layout">
 				<div class="container">

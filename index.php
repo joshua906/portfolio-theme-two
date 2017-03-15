@@ -3,7 +3,15 @@
 global $hedmark_option;
 
 get_header(); ?>
-<!-- blog header -->
+
+<!--Blog hero-->
+<div class="container">
+<div class="blog-hero">
+
+		
+	</div>
+</div>
+<!-- blog header 
 <div class="main-hero">
 			<div class="container">
 			<div class="row">
@@ -18,7 +26,7 @@ get_header(); ?>
 			</div>
 			</div>
 		</div>
-
+-->
 	
 			<div class="blog-layout">
 				<div class="container">

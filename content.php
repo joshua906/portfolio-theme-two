@@ -44,17 +44,7 @@
 		  <div class="standard-share">
 		  <?php get_template_part ( 'inc/social', 'share' );  ?>
           </div>
-		  <div class="standard-date">
-		    <span class="date"><?php the_time('jS F, Y') ?></span> 
-			<span class="author">
-			<a href="<?php echo esc_url(get_author_posts_url( get_the_author_meta( 'ID' ) )); ?>" rel="author">
-			<?php the_author_meta( 'display_name' ); ?>
-			</a>
-			</span>
-		  </div>   
-		  
-		  
-		  
+  
 		</div>
 		<!-- end of share-date-author -->
     </div>

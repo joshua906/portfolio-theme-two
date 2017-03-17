@@ -5,9 +5,9 @@
  * @package matthews portfolio
  * @since 	v.1.0
 **/
-?>
+?><p>Share:</p>
 <ul class="single-social-icons">
-	<li class="single-share-text"><?php esc_html_e( 'Share:', 'hedmark' ); ?></li>
+	<!--<li class="single-share-text"><?php esc_html_e( 'Share:', 'hedmark' ); ?></li>-->
 		<li>
 	<a href="http://www.facebook.com/sharer.php?u=<?php the_permalink();?>&amp;t=<?php esc_html(the_title()); ?>" target="blank">
 	<i class="fa fa-facebook"></i></a>

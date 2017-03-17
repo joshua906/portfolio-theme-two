@@ -2,8 +2,12 @@
 global $hedmark_option;
 
 get_header(); ?>
-
-	<div class="main-hero">
+<div class="blog-hero">
+	<div class="container">
+		<?php the_post_thumbnail(); ?>
+	</div>
+</div>
+	<div class="">
 		<div class="container-post">
 		<div class="col-md-12">
           

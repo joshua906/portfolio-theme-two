@@ -51,7 +51,7 @@ h1.small-font-family.module span {
 }
 @media (min-width: 768px){
 .container-post {
-   width:700px;
+   width:750px;
 }
 }
 .big{
@@ -664,12 +664,14 @@ top: 0px;
 
 /******************* blog hero *******************/
 
-.blog-hero {
+.blog-hero img{
 	overflow:hidden;
 	height: 550px;
+	width: 100%;
 	background-position: center;
-	background-image: url("https://images.pexels.com/photos/27665/pexels-photo-27665.jpg?w=1260&h=750&auto=compress&cs=tinysrgb");
 	margin-bottom: 45px;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 /*** 

@@ -143,7 +143,7 @@ add_action('init', 'portfolio_custom_taxonomies');
 
 
 /******* Register Widget Links **********/
-function portfolio_widgets_init() {
+/*function portfolio_widgets_init() {
 	register_sidebar( array(
 		'name'          => esc_html__( 'Sidebar', 'portfolio' ),
 		'id'            => 'sidebar-1',
@@ -164,6 +164,33 @@ function portfolio_widgets_init() {
 	) );
 }
 add_action( 'widgets_init', 'portfolio_widgets_init' );
+*/
+function hedmark_widgets_init() {
+	register_sidebar( array(
+		'name'          => esc_html__( 'Sidebar', 'hedmark' ),
+		'id'            => 'sidebar-1',
+		'description'   => esc_html__( 'Sidebar widget areas for blog', 'hedmark' ),
+		'before_widget' => '<div id="%1$s" class="sidebar-widget %2$s">',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h2>',
+		'after_title'   => '</h2><div class="kt-smart-divider"></div>',
+	) );
+	register_sidebar( array(
+		'name'          => esc_html__( 'Instagram', 'hedmark' ),
+		'id'            => 'footer-a',
+		'description'   => esc_html__('Instagram Widget Area', 'hedmark'),
+		'before_widget' => '<div id="%1$s" class="footer-widget %2$s">',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h2>',
+		'after_title'   => '</h2>',
+	) );
+}
+add_action( 'widgets_init', 'hedmark_widgets_init' );
+
+
+
+
+
 
 
 

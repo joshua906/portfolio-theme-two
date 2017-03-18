@@ -17,7 +17,7 @@ get_header(); ?>
 </div>
 -->
 <!-- blog header -->
-<div class="main-hero">
+		<div class="main-hero">
 			<div class="container">
 			<div class="row">
 				<div class="col-md-9">
@@ -25,12 +25,13 @@ get_header(); ?>
 
 						<h1 class="small-font-family module"><b>Latest News and Insight</b></h1>
 						
-
+						
 					</div>
 				</div>
 			</div>
 			</div>
-</div>
+		</div>
+
 
 	
 			<div class="blog-layout">

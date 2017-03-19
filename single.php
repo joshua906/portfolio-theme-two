@@ -55,7 +55,15 @@ get_header(); ?>
 			<?php wp_link_pages(); ?>
 		  </div>
 		  <!-- end of standard-post-inner -->
-		  
+		   <div id="prev-next">
+			<div class="prev-link">&larr; Previous Post<br>
+				<?php previous_post_link('%link', '%title'); ?>
+			</div>
+			<div class="next-link">Next Post &rarr;<br>
+				<?php next_post_link('%link', '%title'); ?>
+			</div>
+			</div>
+			<br>
 		   
 			<?php 
 			 //  Author Box

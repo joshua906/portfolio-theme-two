@@ -664,6 +664,18 @@ top: 0px;
 
 
 
+
+
+
+/** CSS for Previous & Next Post Links in Single Page */
+#prev-next {  float: left; margin:10px;}
+#prev-next .prev-link {float: left;width: 50%;text-align: left;}
+#prev-next .prev-link a {float: left;text-align: left;}
+#prev-next .next-link {float: right;width: 50%;text-align: right;}
+#prev-next .next-link a {float: right;text-align: right;}
+#prev-next a{text-decoration: underline; }
+#prev-next a:hover { text-decoration: none; }
+
 /*************Pagination numbers********************/
 
 
@@ -730,7 +742,7 @@ top: 0px;
 /******************* blog hero *******************/
 .blog-hero img{
 	overflow:hidden;
-	height: 550px;
+	height: 475px;
 	width: 100%;
 	background-position: center;
 	margin-bottom: 45px;

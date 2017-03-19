@@ -679,6 +679,14 @@ top: 0px;
 	text-decoration: none;
 }
 #prev-next .next-link h6{float: right;width: 50%;text-align: right; text-decoration: none;}
+
+
+
+
+
+
+
+
 /*************Pagination numbers********************/
 
 
@@ -693,6 +701,7 @@ top: 0px;
 	color: #fff;
 
 	text-decoration:none;
+	
 
 }
 
@@ -715,14 +724,11 @@ top: 0px;
 .navigation li.disabled {
 
     background-color: #222;
-
     border-radius: 25px;
-
     cursor: pointer;
-
     padding: 8px;
-
     padding: 0.9rem;
+	font-weight: 700;
 
 }
 
@@ -1424,14 +1430,14 @@ ul.comment-list li {
 .reply a {
   color: #fff;
   font-size: 12px;
-  background:#d2a74d;
+  background:#222;
   padding: 5px 7px;
   border-radius: 2px;
 }
 
 .reply a:hover {
   color: #fff;
-  background: #d2a74d;
+  background: #222;
   text-decoration: none;
 }
 

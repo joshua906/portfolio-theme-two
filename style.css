@@ -609,7 +609,7 @@ background-color: #fff;
 height: 100%;
 width: 100%;
 position: fixed;
-z-index: 1;
+z-index: 3;
 margin-top: 0px;
 top: 0px;
 }
@@ -750,9 +750,61 @@ top: 0px;
 	background-position: center;
 	margin-bottom: 45px;
 	background-repeat: no-repeat;
+}
+.bloh-hero-img h1{
+
+}
+.blog-hero-img {
+	overflow:hidden;
+	height: 475px;
+	width: 100%;
+	background-position: center;
+	margin-bottom: 45px;
+	background-repeat: no-repeat;
 	background-size: cover;
+	position:relative;
+}
+.blog-hero-img img{
+	overflow:hidden;
+	height: 475px;
+	width: 100%;
+	background-position: center;
+	margin-bottom: 45px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position:relative;
 }
 
+#container {
+	overflow:hidden;
+	height: 475px;
+	width: 100%;
+	background-position: center;
+	margin-bottom: 45px;
+  	position: relative;
+}
+#image {
+  position: absolute;
+  left: 0;
+  top: 0;
+	background-position: center;
+	height:475px;
+	background-repeat: no-repeat;
+}
+#text {
+  z-index: 1;
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom:0;
+  font-size:44px;
+  text-align: center;
+  padding: 18% 12% 0;
+  vertical-align: middle;
+}
 
 @media only screen and (max-width: 767px) {	
 
@@ -767,6 +819,8 @@ top: 0px;
 }
 
 }
+
+
 /*** 
  ===================================
  SIDEBAR AREA
@@ -1516,8 +1570,8 @@ Single article styles
 }
 
 .single-post-title {
-    font-size: 40px;
-    color: #000;
+   
+    color: #222;
     margin: 15px 0 15px 0;
 }
 

@@ -23,7 +23,7 @@ get_header(); ?>
 				<div class="col-md-9">
 					<div class="">
 
-						<h1 class="small-font-family module"><b><?php the_category(); ?></b></h1>
+						<h1 class="small-font-family module"><b><?php hedmark_category() ?></b></h1>
 						
 						
 					</div>
@@ -63,5 +63,21 @@ get_header(); ?>
 			</div>
 
 
+<div class="">
 
+	<div class="container">
+
+    	<div class="row">
+
+        	<div class="col-md-12">
+
+            	<?php wpbeginner_numeric_posts_nav(); ?>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
 <?php get_footer(); ?>

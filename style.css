@@ -154,6 +154,7 @@ a {
 }
 a:hover {
 	color: gray;
+	text-decoration: none;
 }
 .navbar-toggle {
     position: relative;
@@ -657,6 +658,70 @@ top: 0px;
 }
 
 /************** Aniomations ********************/
+
+
+
+
+
+
+/*************Pagination numbers********************/
+
+
+.navigation li a,
+
+.navigation li a:hover,
+
+.navigation li.active a,
+
+.navigation li.disabled {
+
+	color: #fff;
+
+	text-decoration:none;
+
+}
+
+
+
+.navigation li {
+
+	display: inline-block;
+
+}
+
+
+
+.navigation li a,
+
+.navigation li a:hover,
+
+.navigation li.active a,
+
+.navigation li.disabled {
+
+    background-color: #222;
+
+    border-radius: 25px;
+
+    cursor: pointer;
+
+    padding: 8px;
+
+    padding: 0.9rem;
+
+}
+
+
+
+.navigation li a:hover,
+
+.navigation li.active a {
+
+	border: 1px solid #222;
+	color: #222;
+	background-color: #fff;
+
+}
 
 
 

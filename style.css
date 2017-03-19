@@ -671,11 +671,14 @@ top: 0px;
 #prev-next {  float: left; margin:10px;}
 #prev-next .prev-link {float: left;width: 50%;text-align: left;}
 #prev-next .prev-link a {float: left;text-align: left;}
-#prev-next .next-link {float: right;width: 50%;text-align: right;}
+#prev-next .next-link {float: right;width: 50%;text-align: right; text-decoration: none;}
 #prev-next .next-link a {float: right;text-align: right;}
 #prev-next a{text-decoration: underline; }
 #prev-next a:hover { text-decoration: none; }
-
+.next-link h6{
+	text-decoration: none;
+}
+#prev-next .next-link h6{float: right;width: 50%;text-align: right; text-decoration: none;}
 /*************Pagination numbers********************/
 
 

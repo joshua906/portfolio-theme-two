@@ -34,7 +34,7 @@ get_header(); ?>
 		
 		<div class="single-articles">
 
-          <h2 class="single-post-title"><?php esc_html(the_title()); ?></h2>
+          <h3 class="single-post-title"><?php esc_html(the_title()); ?></h3>
 		  <div class="single-article-meta">
 			<span class="author"><?php esc_html_e( 'by', 'hedmark' ); ?>
 			<a href="<?php echo esc_url(get_author_posts_url( get_the_author_meta( 'ID' ) )); ?>" rel="author">
@@ -56,7 +56,7 @@ get_header(); ?>
 		  </div>
 		  <!-- end of standard-post-inner -->
 		   <div id="prev-next">
-			<div class="prev-link">&larr; Previous Post<br>
+			<div class="prev-link">Previous Post<br>
 				<?php previous_post_link('%link', '%title'); ?>
 			</div>
 			<div class="next-link">Next Post &rarr;<br>
@@ -64,7 +64,8 @@ get_header(); ?>
 			</div>
 			</div>
 			<br>
-		   
+		   <div class="spacing"></div>
+		   <hr>
 			<?php 
 			 //  Author Box
             if( $hedmark_option['author_box'] == true ) {

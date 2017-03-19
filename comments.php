@@ -24,7 +24,7 @@ if ( post_password_required() ) {
 
 	<?php if ( have_comments() ) : ?>
         
-	<h2 class="kt-comment-heading">
+	<h2 class="kt-comment-heading text-left">
 		<?php comments_number(esc_html__('No Comments', 'hedmark'), esc_html__('1 Comment', 'hedmark'), esc_html__( '% Comments', 'hedmark') ); ?>
 	</h2>    
 	

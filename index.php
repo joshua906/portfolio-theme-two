@@ -20,10 +20,10 @@ get_header(); ?>
 		<div class="main-hero">
 			<div class="container">
 			<div class="row">
-				<div class="col-md-9">
+				<div class="col-md-12">
 					<div class="">
 
-						<h1 class="small-font-family module"><b>Latest News and Insight</b></h1>
+						<h1 class="small-font-family module text-center"><b>Latest News and Insight</b></h1>
 						
 						
 					</div>

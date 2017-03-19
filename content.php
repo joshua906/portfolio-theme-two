@@ -17,9 +17,9 @@
 		    <?php hedmark_category() ?>
 		  </div>	
 	
-          <h2 class="standard-post-title">
+          <h3 class="standard-post-title">
 		  <a href="<?php esc_url(the_permalink()); ?>"><?php the_title(); ?></a>
-		  </h2>
+		  </h3>
 		         
 		  <div class="raj-standard-divider"></div>		  
 		  <div class="kt-standard-excerpt">

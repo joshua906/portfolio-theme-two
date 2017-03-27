@@ -745,10 +745,8 @@ top: 0px;
 }
 
 
-
-
-
 /******************* blog hero *******************/
+
 .blog-hero img{
 	overflow:hidden;
 	height: 475px;
@@ -760,6 +758,7 @@ top: 0px;
 .bloh-hero-img h1{
 
 }
+
 .blog-hero-img {
 	overflow:hidden;
 	height: 475px;
@@ -811,7 +810,12 @@ top: 0px;
   padding: 18% 12% 0;
   vertical-align: middle;
 }
-
+@media only screen and (max-width: 1200px){
+	.blog-hero img{
+		width: 100%;
+		height: auto;
+	}
+}
 @media only screen and (max-width: 767px) {	
 
 .blog-hero img{
@@ -825,7 +829,9 @@ top: 0px;
 }
 
 }
-
+.blog-layout{
+	margin-top: 50px;
+}
 
 /*** 
  ===================================

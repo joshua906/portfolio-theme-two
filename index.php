@@ -16,7 +16,7 @@ get_header(); ?>
 	</div>
 </div>
 -->
-<!-- blog header -->
+<!-- blog header 
 <div class="container">
 <div id="container">
 	<div id="image"><?php the_post_thumbnail(); ?></div>
@@ -24,7 +24,7 @@ get_header(); ?>
 	  <b>Latest News and Insights</b>
   </p>
 </div>
-</div>
+</div>-->
 <!--	<div class="blog-hero-img">
 	<div class="container">
 		<?php the_post_thumbnail(); ?>
@@ -33,7 +33,7 @@ get_header(); ?>
 		</div>
 	</div>
 </div>
-
+-->
 			<div class="main-hero">
 			<div class="container">
 			<div class="row">
@@ -41,13 +41,13 @@ get_header(); ?>
 					<div class="">
 
 						<h1 class="small-font-family module text-center"><b>Latest News and Insight</b></h1>
-						
+						<p class="text-center">Find out how to grow your business or statup!</p>
 						
 					</div>
 				</div>
 			</div>
 			</div>
-		</div>-->
+		</div>
 
 
 	

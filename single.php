@@ -3,7 +3,7 @@ global $hedmark_option;
 
 get_header(); ?>
 <div class="blog-hero">
-	<div class="container">
+	<div class="container-fluid">
 		<?php the_post_thumbnail(); ?>
 	</div>
 </div>
@@ -55,16 +55,27 @@ get_header(); ?>
 			<?php wp_link_pages(); ?>
 		  </div>
 		  <!-- end of standard-post-inner -->
+		  <div class="row">
+		  <div class="col-md-6 col-xs-12">
+		  
 		   <div id="prev-next">
 			<div class="prev-link">&#8592; Previous Post<br>
 				<?php previous_post_link('%link', '%title'); ?>
 			</div>
+			  </div>
+			    </div>
+			    
+			<div class="col-md-6 col-xs-12 text-right">
 			<div class="next-link">Next Post &rarr;<br>
 				<?php next_post_link('%link', '%title'); ?>
 			</div>
 			</div>
+			 </div>
 			<br>
 		   <div class="spacing"></div>
+			
+			  
+		  
 		   <hr>
 			<?php 
 			 //  Author Box

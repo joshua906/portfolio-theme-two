@@ -52,10 +52,10 @@ get_header(); ?>
 
 	
 			<div class="blog-layout">
-				<div class="container">
+				<div class="container-post">
 	
 					<div class="row">
-						<div class="col-md-8">
+						<div class="col-md-12">
 	<?php 
 	
 	if( have_posts() ):
@@ -73,7 +73,7 @@ get_header(); ?>
 	?>
 						</div>
 						
-							<?php get_sidebar(); ?>
+							
 					</div>
 	
 				</div>

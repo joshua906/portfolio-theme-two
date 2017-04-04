@@ -54,30 +54,33 @@ get_header(); ?>
 
 	
 			<div class="blog-layout">
-				<div class="container-post">
-	
+				<div class="container">
+				<div class="row" id="ms-container">
 					<div class="row">
-						<div class="col-md-12">
-	<?php 
+						
+				<?php 
 	
-	if( have_posts() ):
+				if( have_posts() ):
 		
-		while( have_posts() ): the_post(); ?>
+					while( have_posts() ): the_post(); ?>
+					
+					<div class="ms-item col-xs-12 col-md-6">
 						<?php get_template_part('content',get_post_format()); ?>
 						
-						
+					</div>
 						
 	
-			<?php endwhile;
+						<?php endwhile;
 		
-	endif;
+					endif;
 			
-	?>
-						</div>
+					?>
+						
 						
 							
 					</div>
-	
+				</div>
+	<!-- side bar goes on this line-->
 				</div>
 			</div>
 

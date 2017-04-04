@@ -11,7 +11,7 @@
   <!-- a blog post -->
 		  <article id="post-<?php the_ID(); ?>" <?php post_class("col-sm-12 kt-standard"); ?>>
 		  <div class="standard-post-inner">	
-		   
+		   <?php the_post_thumbnail('large'); ?>
 		  
 		  <div class="standard-meta">
 		    <?php hedmark_category() ?>

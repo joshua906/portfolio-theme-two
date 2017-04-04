@@ -243,6 +243,65 @@ a:hover {
     margin-top: 50px;
 }
 }
+
+/*************The Main hero section **************/
+
+.featured-top {
+    width: 86%;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+	background-color: #222;
+}
+	.page .featured-top .post-thumbnail .entry-title {
+		font-size: 44px;
+		}
+
+	.featured-top .post-thumbnail {
+		padding-top: 46%;
+		}
+	.featured-top .post-thumbnail .entry-header {
+		padding-top: 17%;
+		}
+	
+.post-thumbnail { 
+    position: relative; width: 100%; padding-top: 66%; background-position: center center; background-size:cover; background-color: #DBDBD9;
+	background-image: url(img/hero.jpg);
+    }
+.post-thumbnail .entry-header {
+    z-index: 1; max-width: none; width: 100%; height: 100%; padding: 18% 12% 0; text-align: center; vertical-align: middle; position: absolute; top: 0; right: 0; bottom: 0; left: 0; background: rgba(33, 41, 51, 0.35);
+	}
+.post-thumbnail .entry-title { 
+	max-width: 300px; margin-left: auto; margin-right: auto; margin-top: .2em; font-weight: 600; font-size: 17px; text-transform: uppercase; word-break: break-word;
+	}
+.post-thumbnail .entry-title,
+.post-thumbnail .entry-title a { 
+    color: #fff;
+	}
+.post-thumbnail .entry-title a:hover { 
+    color: rgba(255,255,255, .8);
+	}
+.post-thumbnail .entry-meta { 
+    padding: 0 0 4px 0;
+    }
+.post-thumbnail .cat-links a {
+	color: #fff; margin-bottom: 10px;
+	}
+.post-thumbnail .comment-link a:hover,
+.post-thumbnail .edit-link a:hover {
+	color: #fff;
+	}
+.post-thumbnail p {
+	margin-top: 0;
+	}
+.post-thumbnail .more-link { display: inline-block; margin-top: 14px; opacity: 0; color: #fff; text-transform: uppercase; font-size: 10px; letter-spacing: 1px; border-bottom: 2px solid #fff;
+	}
+.post-thumbnail:hover .more-link { 
+	opacity: 1;
+	}
+.more-link:hover { 
+	border-bottom-width: 6px;
+	}
 /************ The Work Sections *******************/
 .portfolio-intro{
 	margin-top: 30px;

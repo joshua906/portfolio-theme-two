@@ -23,15 +23,15 @@
                         <!-- .entry-meta -->
                         
                         <!-- .entry-title -->
-                        <h1 class="entry-title">Mastering Portrait Photography</h1>
+                        <h1 class="entry-title"><b>I'm Joshua Matthews, & I help startups and small businesses increase sales through marketing website development.</b></h1>
                                         
                         <!-- .entry-meta -->
                         <div class="entry-meta">
                             <span class="entry-date">
-                                <time class="entry-date" datetime="2014-07-13T04:34:10+00:00">July 13, 2014</time>
+                             
                             </span> 
                             <span class="comment-link">
-                                <a href="#comments">4 Comments</a>
+                                <a href="#comments"></a>
                             </span>
                         </div>
                         <!-- .entry-meta -->

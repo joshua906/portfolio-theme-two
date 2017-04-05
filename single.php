@@ -2,11 +2,19 @@
 global $hedmark_option;
 
 get_header(); ?>
-<div class="blog-hero">
-	<div class="container-fluid">
-		<?php the_post_thumbnail(); ?>
+    <div class="featured-top-blog">
+         <?php the_post_thumbnail(); ?>
+               <div class="">
+               	<div class="content-blog">
+               		<h2><?php esc_html(the_title()); ?></h2>
+               	</div>
+               </div>        
+                
+            	
+                
 	</div>
-</div>
+
+<!-- article-->
 	<div class="">
 		<div class="container-post">
 		<div class="col-md-12">

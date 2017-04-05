@@ -1,12 +1,12 @@
 <?php get_header(); ?>
 
 <div class="main-hero">
-			<div class="container">
+			<div class="container-post">
 			<div class="row">
-				<div class="col-md-8">
+				<div class="col-md-12">
 					<div class="">
 						<em><h4 class="small-font-family fadeInUp"></h4></em>
-						<h1 class="small-font-family big"> Lets build something Great!</h1>
+						<h1 class="small-font-family big text-center"> <b>Lets build something Great!</b></h1>
 						<p></p>
 					</div>
 				</div>
@@ -14,19 +14,11 @@
 			</div>
 		</div>
 		<!-- form -->
-		<div class="intro">
-			<div class="container">
+
+		<div class="contact-form">
+			<div class="container-post">
 				<div class="row">
 					<div class="col-md-12">
-					
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="contact-form">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-6">
 					
 								<div>
 									<p>Feel free to contact me regarding an estimate on a future project you wish to start. I will respond back to you as soon as possible.</p>
@@ -73,14 +65,6 @@
 					</form>
 					</div>
 					
-					<div class="col-md-5 col-md-offset-1">
-					<br>
-					
-						<h3>Email</h3>
-						<p>joshuamatthews906@yahoo.com</p>
-						<h3>Phone</h3>
-						<p>214-422-8721</p>
-					</div>
 					</div>
 				</div>
 			</div>

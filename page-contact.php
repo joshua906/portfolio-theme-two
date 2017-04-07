@@ -6,7 +6,7 @@
 				<div class="col-md-12">
 					<div class="">
 						<em><h4 class="small-font-family fadeInUp"></h4></em>
-						<h1 class="small-font-family big text-center"> <b>Lets build something Great!</b></h1>
+						<h1 class="small-font-family big text-center"><b>Lets build something Great!</b></h1>
 						<p></p>
 					</div>
 				</div>

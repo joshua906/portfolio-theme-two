@@ -2,7 +2,7 @@
 global $hedmark_option;
 
 get_header(); ?>
-    <div class="featured-top-blog">
+   <div class="featured-top-blog">
         
         
          <?php the_post_thumbnail(); ?>
@@ -47,7 +47,7 @@ get_header(); ?>
 		<?php endwhile; endif; ?>
 		
 		<div class="single-articles">
-
+			
           <!--<h3 class="single-post-title"><?php esc_html(the_title()); ?></h3>-->
 		  <div class="single-article-meta">
 			<!--<span class="author"><?php esc_html_e( 'by', 'hedmark' ); ?>
@@ -58,6 +58,7 @@ get_header(); ?>
 		  </div>   
 		  
 		  <div class="kt-single-content">
+		     
 			  <p><?php esc_html(the_content()); ?></p>
 		   
 		  </div>

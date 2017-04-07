@@ -17,16 +17,16 @@
 		    <?php hedmark_category() ?>
 		  </div>	
 	
-          <h3 class="standard-post-title">
+          <h3 class="standard-post-title text-center">
 		  <a href="<?php esc_url(the_permalink()); ?>"><?php the_title(); ?></a>
 		  </h3>
 		         
 		  <div class="raj-standard-divider"></div>		  
-		  <div class="kt-standard-excerpt">
-			  <p><?php echo wp_trim_words( get_the_content(), 50, '...' ); ?></p>
+		  <div class="kt-standard-excerpt text-center">
+			  <p><?php echo wp_trim_words( get_the_content(), 25, '...' ); ?></p>
 		  </div>
 		  
-		  <div class="caption">
+		  <div class="caption text-center">
 		  
 		  <a href="<?php esc_url(the_permalink()); ?>"><button><?php esc_html_e( 'Learn More', 'hedmark' ); ?></button></a>
 		 
@@ -34,7 +34,7 @@
 		  
 		  <div class="share-date-author">
 		  <div class="standard-share">
-		  <?php get_template_part ( 'inc/social', 'share' );  ?>
+		  <!--<?php get_template_part ( 'inc/social', 'share' );  ?>-->
           </div>
   
 		</div>

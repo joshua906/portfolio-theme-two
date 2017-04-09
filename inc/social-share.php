@@ -11,7 +11,7 @@
 			
 			  <li class="share-text"><?php esc_html_e( 'Share:', 'hedmark' ); ?></li>
 			  
-		      <li><a href="http://www.facebook.com/sharer.php?u=<?php the_permalink();?>&amp;t=<?php esc_html(the_title()); ?>" target="blank"><i class="fa fa-facebook"></i></a></li>
+		      <li><a href="http://www.facebook.com/sharer.php?u=<?php the_permalink();?>&amp;t=<?php esc_html(the_title()); ?>" target="blank"><i class="fa fa-facebook facebook-color"></i></a></li>
 			  
 		      <li><a href="https://twitter.com/intent/tweet?original_referer=<?php the_permalink(); ?>&amp;text=<?php esc_html(the_title()); ?>&amp;tw_p=tweetbutton&amp;url=<?php the_permalink(); ?><?php echo isset( $twitter_user ) ? '&amp;via='.$twitter_user : ''; ?>" target="_blank"><i class="fa fa-twitter"></i></a></li>
 			  

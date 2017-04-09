@@ -55,7 +55,7 @@
 							</div>
 						
 						
-							<button type="submit" value="SEND MESSAGE">SEND MESSAGE</button>
+							<button type="submit" value="SEND MESSAGE">Start My Project</button>
 						
 						<div class="form-control-msg js-form-submission">Submission in process, please wait..</div>
 						<div class="form-control-msg js-form-success">Message Successfully Submitted, Thank You!</div>

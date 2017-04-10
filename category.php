@@ -20,10 +20,10 @@ get_header(); ?>
 		<div class="main-hero">
 			<div class="container">
 			<div class="row">
-				<div class="col-md-9">
+				<div class="col-md-12 text-center">
 					<div class="">
 
-						<h1 class="small-font-family module"><b><?php hedmark_category() ?></b></h1>
+						<h1 class=""><b><?php the_category() ?></b></h1>
 						
 						
 					</div>
@@ -34,31 +34,34 @@ get_header(); ?>
 
 
 	
-			<div class="blog-layout">
+<div class="blog-layout">
 				<div class="container">
-	
+				<div class="row" id="ms-container">
 					<div class="row">
-						<div class="col-md-8">
-	<?php 
+						
+				<?php 
 	
-	if( have_posts() ):
+				if( have_posts() ):
 		
-		while( have_posts() ): the_post(); ?>
-						<?php get_template_part('content',get_post_format()); ?>
+					while( have_posts() ): the_post(); ?>
+					
+					<div class="ms-item col-xs-12 col-md-6">
+						<?php get_template_part('template-parts/content',get_post_format()); ?>
 						
-						
-						
-	
-			<?php endwhile;
-		
-	endif;
-			
-	?>
-						</div>
-						
-							<?php get_sidebar(); ?>
 					</div>
+						
 	
+						<?php endwhile;
+		
+					endif;
+			
+					?>
+						
+						
+							
+					</div>
+				</div>
+	<!-- side bar goes on this line-->
 				</div>
 			</div>
 

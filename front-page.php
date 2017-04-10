@@ -23,7 +23,7 @@
                         <!-- .entry-meta -->
                         
                         <!-- .entry-title -->
-                        <h1 class="entry-title">I help small service businesses increase their sales through website and mobile design</h1>
+                        <h1 class="entry-title"><b>I help small service businesses increase their sales through website and mobile design</b></h1>
                                         
                         <!-- .entry-meta -->
                         <div class="entry-meta">

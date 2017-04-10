@@ -24,6 +24,8 @@ get_header(); ?>
 		</div>
 		
 	<!-- Start of main Content -->
+			
+			
 	<div class="blog-layout">
 	<div class="container">
 			<div class="row">

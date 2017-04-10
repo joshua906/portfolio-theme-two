@@ -71,18 +71,18 @@ get_header(); ?>
 		  </div>
 		  <!-- end of standard-post-inner -->
 		  <div class="row">
-		  <div class="col-md-6 col-xs-12">
+		  <div class="col-md-6 col-xs-12 text-left">
 		  
 		   <div id="prev-next">
 			<div class="prev-link">&#8592; Previous Post<br>
-				<?php previous_post_link('%link', '%title'); ?>
+				<h4><?php previous_post_link('%link', '%title'); ?></h4>
 			</div>
 			  </div>
-			    </div>
+		 </div>
 			    
 			<div class="col-md-6 col-xs-12 text-right">
 			<div class="next-link">Next Post &rarr;<br>
-				<?php next_post_link('%link', '%title'); ?>
+				<h4><?php next_post_link('%link', '%title'); ?></h4>
 			</div>
 			</div>
 			 </div>

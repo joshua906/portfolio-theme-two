@@ -23,7 +23,7 @@ get_header(); ?>
 				<div class="col-md-12 text-center">
 					<div class="">
 
-						<h1 class=""><b><?php the_category() ?></b></h1>
+						<h1 class="category-text-title"><b><?php the_category() ?></b></h1>
 						
 						
 					</div>
@@ -36,7 +36,7 @@ get_header(); ?>
 	
 <div class="blog-layout">
 				<div class="container">
-				<div class="row" id="ms-container">
+				<div class="" id="">
 					<div class="row">
 						
 				<?php 
@@ -45,7 +45,7 @@ get_header(); ?>
 		
 					while( have_posts() ): the_post(); ?>
 					
-					<div class="ms-item col-xs-12 col-md-6">
+					<div class="col-md-12">
 						<?php get_template_part('template-parts/content',get_post_format()); ?>
 						
 					</div>

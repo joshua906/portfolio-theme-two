@@ -28,8 +28,10 @@
                          <div class="container-post">
                          	<div class="row">
                          		<div class="col-md-12 text-center">
+                         		<div class="content-hero">
                          			<p>Hi, I'm Joshua Matthews</p>
-                         			<h1 class="font-change">I help small service businesses increase their sales through website design</h1>
+									<h1 class="font-change">I help <span><b>small service businesses</b></span> increase their sales through <span><b>website design</b></span></h1>
+								</div>
                          		</div>
                          	</div>
                          </div>          
@@ -107,7 +109,7 @@
 		<div class="container-post">
 			<div class="row">
 				<div class="col-md-12 text-center">
-					<a href="<?php echo get_page_link(6); ?>"><button>Grow My Business</button></a>
+					<a href="<?php echo get_page_link(6); ?>"><button>Grow My Business Now</button></a>
 				</div>
 			</div>
 		</div>

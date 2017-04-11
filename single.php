@@ -2,23 +2,24 @@
 global $hedmark_option;
 
 get_header(); ?>
-   <div class="featured-top-blog">
+  <div class="featured-top-blog">
         
-        
-         <?php the_post_thumbnail(); ?>
-              <div class="content-blog">
+        <?php the_post_thumbnail(); ?>
+       
+              <!--<div class="content-blog">
                	<div class="container-post">
                		<div class="row">
                			<div class="col-md-12 text-center">
                	
-               		<h1><?php esc_html(the_title()); ?></h1>
+               		
                		
                			</div>
                		</div>        
 			   	</div>
-			   </div>
+			   </div>-->
                 
 	</div>
+
 
 <!-- article-->
 	<div class="">
@@ -47,8 +48,8 @@ get_header(); ?>
 		<?php endwhile; endif; ?>
 		
 		<div class="single-articles">
-			
-          <!--<h3 class="single-post-title"><?php esc_html(the_title()); ?></h3>-->
+				
+          <h1 class="single-post-title"><?php esc_html(the_title()); ?></h1>
 		  <div class="single-article-meta">
 			<!--<span class="author"><?php esc_html_e( 'by', 'hedmark' ); ?>
 			<a href="<?php echo esc_url(get_author_posts_url( get_the_author_meta( 'ID' ) )); ?>" rel="author">

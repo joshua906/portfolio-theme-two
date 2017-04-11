@@ -17,13 +17,13 @@
 		    <?php hedmark_category() ?>
 		  </div>	
 	
-          <h3 class="standard-post-title">
+          <h2 class="standard-post-title">
 		  <a href="<?php esc_url(the_permalink()); ?>"><?php the_title(); ?></a>
-		  </h3>
+		  </h2>
 		         
 		  <div class="raj-standard-divider"></div>		  
 		  <div class="kt-standard-excerpt">
-			  <p><?php echo wp_trim_words( get_the_content(), 25, '...' ); ?></p>
+			  <p><?php echo wp_trim_words( get_the_content(), 35, '...' ); ?></p>
 		  </div>
 		  
 		  <div class="caption">

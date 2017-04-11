@@ -11,12 +11,12 @@ get_header(); ?>
 
 	<!-- Home header -->
 		<div class="main-hero">
-			<div class="container">
+			<div class="container-post">
 			<div class="row">
-				<div class="col-md-8">
+				<div class="col-md-12">
 					<div class="content-heading">
-						<h1 class="small-font-family">Detaile descritions of how I <b>solved problems</b> for clients</h1>
-						<h4></h4>
+						<h1 class="small-font-family text-center"><b>Work</b></h1>
+						<p class="text-center">How I used design solutions to solve problems for clients</p>
 					</div>
 				</div>
 			</div>

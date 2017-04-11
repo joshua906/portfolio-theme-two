@@ -41,8 +41,8 @@ get_header(); ?>
 				<div class="col-md-12">
 					<div class="">
 
-						<h1 class="small-font-family module text-center"><b>Latest News and Insight</b></h1>
-						<p class="text-center">Find out how to grow your business or statup!</p>
+						<h1 class="small-font-family module text-center"><b>Blog</b></h1>
+						<p class="text-center">Latest News & Insight on how to grow your Business!</p>
 						
 					</div>
 				</div>
@@ -55,7 +55,7 @@ get_header(); ?>
 	
 			<div class="blog-layout">
 				<div class="container">
-				<div class="row" id="ms-container">
+				<div class="" id="">
 					<div class="row">
 						
 				<?php 
@@ -64,7 +64,7 @@ get_header(); ?>
 		
 					while( have_posts() ): the_post(); ?>
 					
-					<div class="ms-item col-xs-12 col-md-6">
+					<div class="col-m-12">
 						<?php get_template_part('content',get_post_format()); ?>
 						
 					</div>

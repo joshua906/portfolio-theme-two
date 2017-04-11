@@ -22,9 +22,17 @@
                         </div>
                         <!-- .entry-meta -->
                         
-                        <!-- .entry-title -->
+                        <!-- .entry-title 
                         <h1 class="entry-title"><b>I help small service businesses increase their sales through website and mobile design</b></h1>
-                                        
+                         -->     
+                         <div class="container-post">
+                         	<div class="row">
+                         		<div class="col-md-12 text-center">
+                         			<p>Hi, I'm Joshua Matthews</p>
+                         			<h1 class="font-change">I help small service businesses increase their sales through website design</h1>
+                         		</div>
+                         	</div>
+                         </div>          
                         <!-- .entry-meta -->
                         <div class="entry-meta">
                             <span class="entry-date">
@@ -66,7 +74,7 @@
 		<div class="container-post">
 			<div class="row">
 				<div class="col-md-12 text-center">
-					<h1>“Sick Of Designers Who Don’t Understand You And Your Business?”</h1>
+					<h2>“Sick Of Designers Who Don’t Understand You And Your Business?”</h2>
 				</div>
 			</div>
 		</div>

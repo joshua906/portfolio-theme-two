@@ -4,36 +4,7 @@ global $hedmark_option;
 
 get_header(); ?>
 
-<!--Blog hero
-<div class="container">
-<div class="blog-hero">
-		<div class="row">
-			<div class="col-md-12">
-				<h1 class="small-font-family module"> Latest News and Insight</h1>
-			</div>
-		</div>
-		
-	</div>
-</div>
--->
-<!-- blog header 
-<div class="container">
-<div id="container">
-	<div id="image"><?php the_post_thumbnail(); ?></div>
-  <h1 class="small-font-family module" id="text">
-	  <b>Latest News and Insights</b>
-  </p>
-</div>
-</div>-->
-<!--	<div class="blog-hero-img">
-	<div class="container">
-		<?php the_post_thumbnail(); ?>
-		<div class="">
-			<h1 class="small-font-family module text-center"><b>Latest News and Insight</b></h1>
-		</div>
-	</div>
-</div>
--->
+
 		
 			<div class="main-hero">
 			<div class="container">

@@ -30,7 +30,7 @@
                          		<div class="col-md-12 text-center">
                          		<div class="content-hero">
                          			<p>Hi, I'm Joshua Matthews</p>
-									<h1 class="font-change">I help <span><b>small service businesses</b></span> increase their sales through <span><b>website design</b></span></h1>
+									<h1 class="font-change">I help <span><b><em>small service businesses</em></b></span> increase their sales through <span><b>website design</b></span></h1>
 								</div>
                          		</div>
                          	</div>
@@ -114,5 +114,33 @@
 			</div>
 		</div>
 		</div>
+
+		
+		
+		<div class="testimony-color">
+		<div class="container">
+				<div class="row">
+			<div class="col-md-12 text-center">
+				<h1>WHAT CLIENTS SAY</h1>
+			</div>
+		</div>
+			<div class="row">
+				<div class="col-xs-12 col-s-6 col-md-4 col-lg-4">
+            	<div class="banner bg-primary">
+                	<div class="banner_wrap banner-content">
+                    	<h5></h5>
+                    	<p>this is were the quote will go</p>
+                    </div>
+                </div>
+            </div>
+				<div class="col-md-6">
+					<h3>the headline of the next quote</h3>
+				</div>
+			</div>
+		</div>
+		</div>
+
+
+
 
 <?php get_footer(); ?>

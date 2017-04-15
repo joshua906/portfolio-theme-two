@@ -428,6 +428,40 @@ a:hover {
 .post-categories{
 	list-style-type: none;
 }
+
+/****************** Testimonials section********************/
+
+.testimony-color{
+	background-color: /*#f4f4f4*/#fafafa;
+	padding: 30px 0px;
+	margin: 50px 0px;
+}
+
+.box-shadow {
+    -webkit-box-shadow: 4px 4px 7px 0 rgba(0,0,0,.24);
+    -moz-box-shadow: 4px 4px 7px 0 rgba(0,0,0,.24);
+    box-shadow: 4px 4px 7px 0 rgba(0,0,0,.24);
+}
+.banner-content {
+    padding: 20px 35px 30px 35px;
+    margin-bottom: 35px;
+    color:;
+}
+
+.banner_wrap {
+    background-size: cover;
+    background-position: 50% 50%;
+}
+.bg-primary {
+    background-color: #fff;
+	border: 1px solid #f4f4f4;
+    color:#222 ;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.banner.bg-primary{
+    margin: 25px;
+}
 /************ The Work Sections *******************/
 .portfolio-intro{
 	margin-top: 30px;

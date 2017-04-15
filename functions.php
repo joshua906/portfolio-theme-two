@@ -106,6 +106,56 @@ function portfolio_custom_post_type() {
 }
 add_action('init','portfolio_custom_post_type');
 
+
+
+
+
+// Custom post type for quotes
+
+function testimony_custom_post_type() {
+	
+	$labels = array(
+	'name' => 'Testimony',
+		'singular_name' => 'Testimony',
+		'add_new' => 'Add Item',
+		'all_items' => 'All Items',
+		'add_new_item' => 'Add Item',
+		'edit_item' => 'Edit Item',
+		'new_item' => 'New Item',
+		'view_item' => 'View Item',
+		'search_item' => 'Search Testimony',
+		'not_found' => 'No items Found',
+		'not_found_in_trash' => 'No items found in trash',
+		'parent_item_colon' => 'Parent Item',
+	);
+	$args = array(
+		'labels' => $labels,
+		'public' => true,
+		'has_archive' => true,
+		'publicly_queryable' => true,
+		'query_var' => true,
+		'rewrite' => true,
+		'capability_type' => 'post',
+		'hierarchical' => false,
+		'menu_icon'			=> 'dashicons-format-quote',
+		'supports' => array(
+			'title',
+			'editor',
+			'content',
+			'excerpt',
+			'thumbnail',
+			'revisions',
+		),
+		'taxonomies' => array('category', 'post_tag'),
+		'menu_position' => 7,
+		'exclude_from_search' => false
+	);
+	register_post_type('testimony',$args);
+	
+	
+}
+add_action('init','testimony_custom_post_type');
+
 /// custom taxonomies
 
 function portfolio_custom_taxonomies() {

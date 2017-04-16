@@ -76,7 +76,7 @@
 		<div class="container-post">
 			<div class="row">
 				<div class="col-md-12 text-center">
-					<h2>“Sick Of Designers Who Don’t Understand You And Your Business?”</h2>
+					<h1>“Sick Of Designers Who Don’t Understand You And Your Business?”</h1>
 				</div>
 			</div>
 		</div>
@@ -121,21 +121,30 @@
 		<div class="container">
 				<div class="row">
 			<div class="col-md-12 text-center">
-				<h1>WHAT CLIENTS SAY</h1>
+				<h2>Kind words from happy clients</h2>
 			</div>
 		</div>
 			<div class="row">
-				<div class="col-xs-12 col-s-6 col-md-4 col-lg-4">
-            	<div class="banner bg-primary">
-                	<div class="banner_wrap banner-content">
+			<?php
+			$args = array('post_type' => 'testimony', 'post_per_page' => 3 );
+				$loop = new WP_Query( $args );
+
+				if( $loop->have_posts() ):
+
+					while( $loop->have_posts() ): $loop->the_post(); ?> 
+				<div class="col-xs-12 col-md-4">
+            	<div class="banner bg-primary text-center">
+                	<div class="banner_wrap banner-content small-paragraph">
                     	<h5></h5>
-                    	<p>this is were the quote will go</p>
+						<?php the_content(); ?>
                     </div>
                 </div>
             </div>
-				<div class="col-md-6">
-					<h3>the headline of the next quote</h3>
-				</div>
+            	<?php endwhile;
+
+				endif;
+
+				?>
 			</div>
 		</div>
 		</div>

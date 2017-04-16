@@ -25,7 +25,9 @@ p {
     line-height: 2.0;
 	
 }
-
+.small-paragraph {
+	font-size: 12px;
+}
 p a{
 	color: #d2a74d;
 }
@@ -47,6 +49,7 @@ p {
 .font-change{
 	font-family: 'Merriweather', serif;
 	font-weight: 300;
+	font-size: 46px;
 }
 .font-change span {
 	font-family: 'Arimo', sans-serif;
@@ -56,6 +59,7 @@ p {
 	font-family: 'Arimo', sans-serif;
 	font-weight: 400;
 	color: #222;
+	font-size: 46px;
 	
 }
 .container-post {
@@ -435,8 +439,17 @@ a:hover {
 	background-color: /*#f4f4f4*/#fafafa;
 	padding: 30px 0px;
 	margin: 50px 0px;
+	max-width: 1440px;
+	background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+	width: 88%;
+	
 }
-
+.testimony-color p {
+	font-size:13px;
+}
 .box-shadow {
     -webkit-box-shadow: 4px 4px 7px 0 rgba(0,0,0,.24);
     -moz-box-shadow: 4px 4px 7px 0 rgba(0,0,0,.24);
@@ -445,7 +458,7 @@ a:hover {
 .banner-content {
     padding: 20px 35px 30px 35px;
     margin-bottom: 35px;
-    color:;
+    
 }
 
 .banner_wrap {
@@ -457,10 +470,11 @@ a:hover {
 	border: 1px solid #f4f4f4;
     color:#222 ;
 	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+	font-size: 12px;
 }
 
 .banner.bg-primary{
-    margin: 25px;
+    margin: 0px;
 }
 /************ The Work Sections *******************/
 .portfolio-intro{

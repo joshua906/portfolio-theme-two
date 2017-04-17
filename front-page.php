@@ -136,8 +136,9 @@
 				<div class="col-xs-12 col-md-4">
             	<div class="banner bg-primary text-center">
                 	<div class="banner_wrap banner-content small-paragraph">
-                    	<h5></h5>
+                    
 						<?php the_content(); ?>
+                   		<h5><?php the_excerpt(); ?></h5>
                     </div>
                 </div>
             </div>

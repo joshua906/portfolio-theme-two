@@ -120,8 +120,9 @@
 		<div class="testimony-color">
 		<div class="container">
 				<div class="row">
-			<div class="col-md-12 text-center">
-				<h2>Kind words from happy clients</h2>
+			<div class="col-md-12 text-center text-clients">
+				<h2>Client Testimonies</h2>
+				
 			</div>
 		</div>
 			<div class="row">

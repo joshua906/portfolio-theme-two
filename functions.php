@@ -500,5 +500,11 @@ function responsive_images_big($atts, $content, $tag){
 //add the new 'clear_content' shortcode
 add_shortcode('big_img','responsive_images_big');
 
+function col_md_6($atts, $content, $tag){
+	return '<div class="col-md-6 col-sm-12">' . $content . '</div>';
+}
+//add the new 'clear_content' shortcode
+add_shortcode('col_md_6','col_md_6');
+
 
 ?>

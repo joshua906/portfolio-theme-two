@@ -19,7 +19,12 @@
 			</div>
 			</div>
 		</div>
-  	<?php the_content(); ?>
+		<div class="container">
+			<div class="">
+				<?php the_content(); ?>
+			</div>
+		</div>
+  	
   		  	<!--<div class="project-info">
 		<div class="container-post">
 			<div class="row">

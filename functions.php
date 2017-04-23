@@ -473,4 +473,22 @@ function portfolio_excerpt_more( $more ) {
 add_filter( 'excerpt_more', 'portfolio_excerpt_more' );
 
 
+
+
+
+
+
+
+//Custom shortcodes  
+
+function clear_content_callback_function($atts, $content, $tag){
+	return '<div class="container-post">' . $content . '</div>';
+}
+//add the new 'clear_content' shortcode
+add_shortcode('clear_content','clear_content_callback_function');
+
+
+
+
+
 ?>

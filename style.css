@@ -430,7 +430,7 @@ a:hover {
 /****************** Testimonials section********************/
 
 .testimony-color{
-	background-color: /*#f4f4f4#fafafa*/#f4f7fc;
+	background-color: #fafafa/*#f4f7fc*/;
 	padding: 30px 0px 50px 0px;
 	margin: 50px 0px;
 	max-width: 1440px;
@@ -441,11 +441,13 @@ a:hover {
 	width: 88%;
 	
 }
-
+.testimony-color img {
+	padding-bottom: 5px;
+}
 @media (max-width: 1000px){
 	
 .testimony-color{
-	background-color: /*#f4f4f4#fafafa*/#f4f7fc;
+	background-color: /*#f4f4f4#fafafa*/#fafafa;
 	padding: 30px 0px 50px 0px;
 	margin: 50px 0px;
 	width: 100%;
@@ -468,7 +470,7 @@ a:hover {
 	padding-bottom: 30px;
 }
 .testimony-color p {
-	font-size:13px;
+	font-size:14px;
 }
 .box-shadow {
     -webkit-box-shadow: 4px 4px 7px 0 rgba(0,0,0,.24);
@@ -559,7 +561,7 @@ a:hover {
 	margin: 10px 0%;
 	min-width: 300px;
 	max-width: 650px;
-	max-height: 600px;
+	max-height: 700px;
 	width: 100%;
 	background: #3085a3;
 	text-align: center;

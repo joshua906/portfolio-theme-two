@@ -488,6 +488,12 @@ function clear_content_callback_function($atts, $content, $tag){
 add_shortcode('clear_content','clear_content_callback_function');
 
 
+function img_portfolio($atts, $content, $tag){
+	return '<div class="featured-top-blog">' . $content . '</div>';
+}
+//add the new 'clear_content' shortcode
+add_shortcode('img_portfolio','img_portfolio');
+
 
 
 

@@ -494,7 +494,11 @@ function img_portfolio($atts, $content, $tag){
 //add the new 'clear_content' shortcode
 add_shortcode('img_portfolio','img_portfolio');
 
-
+function responsive_images_big($atts, $content, $tag){
+	return '<div class="responsive-images">' . $content . '</div>';
+}
+//add the new 'clear_content' shortcode
+add_shortcode('big_img','responsive_images_big');
 
 
 ?>

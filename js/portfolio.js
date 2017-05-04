@@ -113,7 +113,7 @@ $grid.imagesLoaded().progress( function() {
 	
 	// animation loading
 	$(window).load(function() {
-	$("#loading").delay(1000).fadeOut(500);
+	$("#loading").fadeOut(500);
 	});
 	
 	//aniimate inview		

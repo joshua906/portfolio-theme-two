@@ -25,12 +25,12 @@
                         <!-- .entry-title 
                         <h1 class="entry-title"><b>I help small service businesses increase their sales through website and mobile design</b></h1>
                          -->     
-                         <div class="container-post">
+                         <div class="container">
                          	<div class="row">
-                         		<div class="col-md-12 text-center">
+                         		<div class="col-md-7">
                          		<div class="content-hero">
                          			<p>Hi, I'm Joshua Matthews</p>
-									<h1 class="font-change">I help <span><b><em>small service businesses</em></b></span> increase their sales through <span><b>website design</b></span></h1>
+									<h1 class="font-change">I help Instructors and service businesses increase their subscribers, course signups, and sales through website design</h1>
 								</div>
                          		</div>
                          	</div>
@@ -151,6 +151,11 @@
 			</div>
 		</div>
 		</div>
+		
+		
+		
+		
+	
 <!--
 <!-- Begin MailChimp Signup Form 
 <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">

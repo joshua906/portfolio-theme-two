@@ -118,7 +118,11 @@ $grid.imagesLoaded().progress( function() {
 	
 	//aniimate inview		
 		
-		
+	//window browser
+	
+	$(window).resize(function() {
+    $('#hero').height($(window).height());
+}).resize();
 		
 	
 });

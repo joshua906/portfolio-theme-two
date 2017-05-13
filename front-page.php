@@ -5,7 +5,7 @@
   <div class="featured-top">
                     
                 
-            	
+    
                 <!-- .post-thumbnail -->
                 <div class="post-thumbnail">
                          
@@ -13,29 +13,34 @@
                     <!-- .entry-header -->
                     <header class="entry-header">
                         
-                                        
+                         <div class="container">
+                         	<div class="row">
+                         		<div class="col-md-8">
+                         		<div class="content-hero">
+                   
+									<h1 class="font-change">I help Instructors and service businesses increase their sales, course signups, and subscribers through website design</h1>
+								</div>
+                         		</div>
+                         	</div>
+                         </div>               
                         <!-- .entry-meta -->
-                        <div class="entry-meta">
-                            <span class="cat-links">
-                                <a href="#" title="View all posts in Travel" rel="category tag"></a>
-                            </span>	
-                        </div>
+
                         <!-- .entry-meta -->
                         
                         <!-- .entry-title 
                         <h1 class="entry-title"><b>I help small service businesses increase their sales through website and mobile design</b></h1>
-                         -->     
+                              
                          <div class="container">
                          	<div class="row">
-                         		<div class="col-md-7">
+                         		<div class="col-md-8">
                          		<div class="content-hero">
                          			<p>Hi, I'm Joshua Matthews</p>
 									<h1 class="font-change">I help Instructors and service businesses increase their subscribers, course signups, and sales through website design</h1>
 								</div>
                          		</div>
                          	</div>
-                         </div>          
-                        <!-- .entry-meta -->
+                         </div>  -->        
+                        <!-- .entry-meta 
                         <div class="entry-meta">
                             <span class="entry-date">
                              
@@ -43,7 +48,7 @@
                             <span class="comment-link">
                                 <a href="#comments"></a>
                             </span>
-                        </div>
+                        </div>-->
                         <!-- .entry-meta -->
                         
                     </header>
@@ -54,29 +59,12 @@
                 
 </div>
             <!-- .featured-top -->	
-	<!--
-		<div class="main-hero">
-			<div class="container">
-			<div class="row">
-				<div class="col-md-9">
-					<div class="">
-						<!--<h4 class="font-family fadeInUp">Hello! I'm Joshua Matthews, UI/UX Designer and Front end Developer</h4>
-						<h4 class="font-family fadeInUp">Welcome</h4>-->
-						<!--<h1 class="small-font-family big"> I build and design web and mobile experiences that help brands<span>Stand Out.</span></h1>
-						<h1 class="small-font-family module"> <b>I'm Joshua Matthews, & I help startups and small businesses increase sales through marketing website development.</b></h1>
-						
-						
-					</div>
-				</div>
-			</div>
-			</div>
-		</div>
-		-->
+
 		<div class="headline-hook">
 		<div class="container-post">
 			<div class="row">
-				<div class="col-md-12 text-center">
-					<h1>“Sick Of Designers Who Don’t Understand You And Your Business?”</h1>
+				<div class="col-md-12 text-center font-special">
+					<h1>Sick Of Designers Who Don’t Understand You And Your Business?</h1>
 				</div>
 			</div>
 		</div>
@@ -121,7 +109,7 @@
 		<div class="container">
 				<div class="row">
 			<div class="col-md-12 text-center text-clients">
-				<h2>Client Testimonies</h2>
+				<h1>Kind words from <br>happy clients</h1>
 				
 			</div>
 		</div>

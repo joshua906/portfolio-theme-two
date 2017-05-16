@@ -25,6 +25,7 @@ p {
     line-height: 1.8;
 	
 }
+
 .font-special{
 	font-weight: 300;
 }
@@ -50,7 +51,7 @@ p {
 	font-weight: 700;
 }
 .font-change{
-	font-family: 'Merriweather', serif;
+	font-family: 'Arimo', sans-serif;
 	font-weight: 300;
 	font-size: 46px;
 }
@@ -62,6 +63,13 @@ p {
 	font-family: 'Arimo', sans-serif;
 	font-weight: 400;
 	color: #222;
+	font-size: 46px;
+	
+}
+.small-font-family-white {
+	font-family: 'Arimo', sans-serif;
+	font-weight: 400;
+	color: #fff;
 	font-size: 46px;
 	
 }
@@ -110,6 +118,36 @@ a {
     font-family: 'Merriweather', serif;
 
 }
+.caption-hero button {
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 25px;
+    margin-top: 30px;
+   font-family: 'Arimo', sans-serif;
+
+}
+
+.caption-hero button:hover {
+    background-color: #fff;
+    border: 1px solid #fff;
+    color: #56d6c3;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 25px;
+    margin-top: 30px;
+     font-family: 'Arimo', sans-serif;
+    transition-duration: .4s;
+
+}
 .caption button:hover {
     background-color: #fff;
     border: 1px solid #000;
@@ -127,7 +165,7 @@ a {
 }
 /************* New Navigation ***************/
 .top-pad {
-	padding-top: 30px;
+	padding-top: 0px;
 }
 .class-white {
     background-color: #fff;
@@ -280,12 +318,13 @@ a:hover {
 }
 
 .featured-top {
-    width: 92%;
-    max-width: 1440px;
+    width: 100%;
+    /*max-width: 1440px;*/
     margin-left: auto;
     margin-right: auto;
 	background-color: #222;
 	overflow: hidden;
+	
 }
 
 .featured-top-blog {
@@ -355,13 +394,12 @@ a:hover {
 		padding-top: 46%;
 		}
 	.featured-top .post-thumbnail .entry-header {
-		padding-top: 17%;
+		padding-top: 15%;
 		}
 	
 .post-thumbnail { 
-    position: relative; width: 100%; padding-top: 55%; background-position: center center; background-size:cover; background-color: #DBDBD9;
-	background-image: url(img/home-hero.jpg);
-	background-attachment:;
+    position: relative; width: 100%; padding-top: 55%;*background-position: center center; background-size:cover; background-color: #DBDBD9;
+	background-image: url(img/matthews-background-hero.jpg);
     }
 .post-thumbnail .entry-header {
     z-index: 1; max-width: none; width: 100%; height: 100%; padding: 18% 6% 0; vertical-align: middle; position: absolute; top: 0; right: 0; bottom: 0; left: 0; /*background: rgba(33, 41, 51, 0.25);*/

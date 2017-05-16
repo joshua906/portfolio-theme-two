@@ -16,40 +16,17 @@
                          <div class="container">
                          	<div class="row">
                          		<div class="col-md-8">
-                         		<div class="content-hero">
-                   
-									<h1 class="font-change">I help Instructors and service businesses increase their sales, course signups, and subscribers through website design</h1>
+                         		<div class="content-hero caption-hero">
+                   					<h1 class="small-font-family-white"><b>I make custom websites for Instructors and Service Business professionals</b></h1>
+									<!--<h1 class="font-change">I help Instructors and service businesses increase their sales, course signups, and subscribers through website design</h1>-->
+									<a href="<?php echo get_page_link(8); ?>"><button>VIEW PROJECTS &#8594;</button></a>
 								</div>
                          		</div>
                          	</div>
                          </div>               
                         <!-- .entry-meta -->
 
-                        <!-- .entry-meta -->
-                        
-                        <!-- .entry-title 
-                        <h1 class="entry-title"><b>I help small service businesses increase their sales through website and mobile design</b></h1>
-                              
-                         <div class="container">
-                         	<div class="row">
-                         		<div class="col-md-8">
-                         		<div class="content-hero">
-                         			<p>Hi, I'm Joshua Matthews</p>
-									<h1 class="font-change">I help Instructors and service businesses increase their subscribers, course signups, and sales through website design</h1>
-								</div>
-                         		</div>
-                         	</div>
-                         </div>  -->        
-                        <!-- .entry-meta 
-                        <div class="entry-meta">
-                            <span class="entry-date">
-                             
-                            </span> 
-                            <span class="comment-link">
-                                <a href="#comments"></a>
-                            </span>
-                        </div>-->
-                        <!-- .entry-meta -->
+
                         
                     </header>
                     <!-- .entry-header -->
@@ -64,7 +41,7 @@
 		<div class="container-post">
 			<div class="row">
 				<div class="col-md-12 text-center font-special">
-					<h1>Sick Of Designers Who Don’t Understand You And Your Business?</h1>
+					<!--<h1>Sick Of Designers Who Don’t Understand You And Your Business?</h1>-->
 				</div>
 			</div>
 		</div>
@@ -73,8 +50,15 @@
 		<div class="caption">
 			<div class="container-post">
 				<div class="row">
-					<div class="col-md-12">
-				<?php 
+					<div class="col-md-12 text-center intro">
+					
+					<h3>Hello I'm Joshua Matthews</h3>
+					<p>Hello I'm Joshua Matthews. I help Instructors and Service Business Owners increase sales, course signups, and subscribers so they can make a profitable business even if they are in the early stages of development. I do this by understanding your target market and streamlining a process that will convert your visitors to paying customers. </p>
+					
+					<p>I am a business minded designer who understands the challenges businesses face when it comes to establishing a profitable website. If you are ready to build a effective website for your company and work with someone whose focus is in the success of your business, your in the right place</p>
+					
+					<p>Check out my latest articles for tips and actionable ways to grow your business today!</p>
+				<!--<?php 
 	
 				if( have_posts() ):
 		
@@ -87,7 +71,7 @@
 		
 					endif;
 			
-					?>
+					?>-->
 					
 					</div>
 				

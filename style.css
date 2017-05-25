@@ -490,6 +490,24 @@ a:hover {
 	list-style-type: none;
 }
 
+/******************* testimony section *************************/
+
+.matthews-divider {
+	border-top: 1px solid #B9B9B9;
+	border-bottom: 1px solid #B9B9B9;
+	background-color: #F9F9F9;
+	padding: 70px 0px;
+	margin: 100px 0px;
+}
+
+.matthews-divider-topics {
+	border-top: 1px solid #B9B9B9;
+	border-bottom: 1px solid #B9B9B9;
+	background-color: #F9F9F9;
+	padding: 50px 0px;
+	
+}
+
 /****************** Testimonials section********************/
 
 .testimony-color{
@@ -560,6 +578,21 @@ a:hover {
 
 .banner.bg-primary{
     margin: 0px;
+}
+/************** The services ******************/
+
+.matthews-service-image-padding {
+	margin-top: 120px;
+	margin-bottom: 60px;
+}
+.featured-top-blog img{
+	border: 1px solid #eee;
+}
+.my-process{
+	margin: 50px 0px;
+}
+.blue-heading {
+	color: #26ACE3;
 }
 /************ The Work Sections *******************/
 .portfolio-intro{

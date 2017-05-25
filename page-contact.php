@@ -1,16 +1,13 @@
 <?php get_header(); ?>
 
-<div class="main-hero">
+		<div class="matthews-divider-topics caption">
 			<div class="container-post">
-			<div class="row">
-				<div class="col-md-12">
-					<div class="">
-						<em><h4 class="small-font-family fadeInUp"></h4></em>
-						<h1 class="small-font-family big text-center"><b>Lets build something Great!</b></h1>
-						<p></p>
+				<div class="row">
+					<div class="col-md-12">
+						<h1 class="matthews-headline text-center">Lets build something great</h1>
+						<hr>
 					</div>
 				</div>
-			</div>
 			</div>
 		</div>
 		<!-- form -->
@@ -21,7 +18,7 @@
 					<div class="col-md-12">
 					
 								<div>
-									<p>Feel free to contact me regarding an estimate on a future project you wish to start. I will respond back to you as soon as possible.</p>
+									<p class="text-center">I look forward to hearing about your project and being a part of your business success. Fill out my form and I will get back to you within 24 hours.</p>
 								</div>
 						<form action="#" method="post" id="portfolioContactForm" data-url="<?php echo admin_url('admin-ajax.php') ?>">
 						

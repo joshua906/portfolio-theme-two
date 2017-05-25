@@ -24,6 +24,7 @@ p {
     font-size: 17px;
     line-height: 1.8;
 	
+	
 }
 
 .font-special{
@@ -115,7 +116,7 @@ a {
     font-size: 15px;
     border-radius: 25px;
     margin-top: 30px;
-    font-family: 'Merriweather', serif;
+    font-family: 'Arimo', sans-serif;
 
 }
 .caption-hero button {
@@ -164,6 +165,12 @@ a {
 
 }
 /************* New Navigation ***************/
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0px;
+    border-bottom: 1px solid grey;
+}
 .top-pad {
 	padding-top: 0px;
 }

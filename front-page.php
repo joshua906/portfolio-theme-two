@@ -50,10 +50,10 @@
 		<div class="caption">
 			<div class="container-post">
 				<div class="row">
-					<div class="col-md-12 text-center intro">
+					<div class="col-md-12  intro">
 					
-					<h3>Hello I'm Joshua Matthews</h3>
-					<p>Hello I'm Joshua Matthews. I help Instructors and Service Business Owners increase sales, course signups, and subscribers so they can make a profitable business even if they are in the early stages of development. I do this by understanding your target market and streamlining a process that will convert your visitors to paying customers. </p>
+					<h1>Hello I'm Joshua Matthews</h1>
+					<p>I help Instructors and Service Business Owners increase sales, course signups, and subscribers so they can make a profitable business even if they are in the early stages of development. I do this by understanding your target market and streamlining a process that will convert your visitors to paying customers. </p>
 					
 					<p>I am a business minded designer who understands the challenges businesses face when it comes to establishing a profitable website. If you are ready to build a effective website for your company and work with someone whose focus is in the success of your business, your in the right place</p>
 					
@@ -81,7 +81,7 @@
 		<div class="container-post">
 			<div class="row">
 				<div class="col-md-12 text-center">
-					<a href="<?php echo get_page_link(6); ?>"><button>Grow My Business Now</button></a>
+					<a href="<?php echo get_page_link(6); ?>"><button>Work WIth Me</button></a>
 				</div>
 			</div>
 		</div>

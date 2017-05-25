@@ -23,6 +23,7 @@
 					<a href=""><i class="fa fa-facebook fa-2x" aria-hidden="true" data-toggle="tooltip" title="Facebook"></i></a>
 					<a href=""><i class="fa fa-instagram fa-2x" aria-hidden="true" data-toggle="tooltip" title="Instagram"></i></a>
 					<a href=""><i class="fa fa-behance fa-2x" aria-hidden="true" data-toggle="tooltip" title="Behance"></i></a>
+					<a href=""><i class="fa fa-google-plus fa-2x" aria-hidden="true" data-toggle="tooltip" title="Google Plus"></i></a>
 					</div>
  				</div>
  			</div>

@@ -10,16 +10,14 @@ get_header(); ?>
 
 
 	<!-- Home header -->
-		<div class="main-hero">
-			<div class="container">
-			<div class="row">
-				<div class="col-md-8">
-					<div class="content-heading">
-						<h1 class="small-font-family"><b>How I used design solutions to solve problems for clients</b></h1>
-						<!--<p class="text-center">How I used design solutions to solve problems for clients</p>-->
+		<div class="matthews-divider-topics caption">
+			<div class="container-post">
+				<div class="row">
+					<div class="col-md-12">
+						<h1 class="matthews-headline text-center">How my design solutions solved problems for clients</h1>
+						<hr>
 					</div>
 				</div>
-			</div>
 			</div>
 		</div>
 <!-- the work -->
@@ -65,5 +63,23 @@ get_header(); ?>
 			</div>
 		</div>
 		</div>
+		
+		<div class="spacing"></div>
+		
+	<div class="container-post">
+	<hr>
+	</div>
+		
+		<!-- Call to action -->
+	<div class="caption">
+	   <div class="container-post">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<h1 class="matthews-headline">Ready to get your project started?</h1>
+					<a href="<?php echo get_page_link(6); ?>"><button>YES!</button></a>
+				</div>
+			</div>
+		</div>
+	</div>
 	
 <?php get_footer(); ?>

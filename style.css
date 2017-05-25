@@ -21,10 +21,12 @@ ol{
 }
 p {
     font-family: 'Arimo', sans-serif;
-    font-size: 17px;
+    font-size: 18px;
     line-height: 1.8;
-	
-	
+}
+.caption hr{
+	width: 18%;
+	border-top: 4px solid #26ACE3 !important;
 }
 .matthews-headline {
 	font-size: 42px;
@@ -36,6 +38,10 @@ p {
 }
 .small-paragraph {
 	font-size: 12px;
+}
+.small-paragraph-right {
+	font-size: 12px;
+	text-align:right;
 }
 p a{
 	color: #57d6c3;
@@ -110,8 +116,8 @@ a {
 	
 }
 .caption button {
-    background-color: #000;
-    border: 1px solid #000;
+    background-color: #26ACE3;
+    border: 1px solid #26ACE3;
     color: white;
     padding: 15px 32px;
     text-align: center;
@@ -121,6 +127,7 @@ a {
     border-radius: 25px;
     margin-top: 30px;
     font-family: 'Arimo', sans-serif;
+	min-width: 190px;
 
 }
 .caption-hero button {
@@ -141,7 +148,7 @@ a {
 .caption-hero button:hover {
     background-color: #fff;
     border: 1px solid #fff;
-    color: #56d6c3;
+    color: #26ACE3;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -155,8 +162,8 @@ a {
 }
 .caption button:hover {
     background-color: #fff;
-    border: 1px solid #000;
-    color: #000;
+    border: 1px solid #26ACE3;
+    color: #26ACE3;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -164,8 +171,9 @@ a {
     font-size: 15px;
     border-radius: 25px;
     margin-top: 30px;
-    font-family: 'Merriweather', serif;
+   font-family: 'Arimo', sans-serif;
     transition-duration: .4s;
+	min-width: 190px;
 
 }
 /************* New Navigation ***************/
@@ -902,7 +910,22 @@ padding-top: 10px;
     color: #222;
     padding: 75px 0px;
 }
-
+.matthews-footer{
+	margin-top: 80px;
+}
+.matthews-footer hr {
+	border-top: 1px solid #eee;
+}
+.social-info {
+	background-color: #F9F9F9;
+	border-top: 1px solid #B9B9B9;
+	padding-top: 10px;
+	padding-left: 15px;
+	padding-right: 15px
+}
+.fa {
+	padding: 0px 8px;
+}
 .footer p {
 	font-size: .9em;
 	margin-top: 15px;

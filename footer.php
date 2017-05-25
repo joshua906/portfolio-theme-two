@@ -1,30 +1,35 @@
 	
 </main>
- <div class="spacing"></div>
-<div class="footer">
-			<div class="container">
-			<div class="row">
-				<div class="col-md-6">
-					
-					<p><b>Email:</b> joshuamatthews906@yahoo.com <br><b>Telephone:</b>214/422/8721</p>
-					
-				
-						<!--<img src="<?php echo get_template_directory_uri(); ?>/img/matthews-logo.png" width="100" height="44" alt=""/>-->
-					
-					<!--<p>Copyright Matthews Designs 2017</p>
-					<p>joshuamatthews906@yahoo.com</p>
-					<p>phone: 214-422-8721</p>-->
-				</div>
-			
-				<div class="col-md-6 text-right left-media">
-					<p>&copy;2017 matthews designs</p>
-				<a href="https://github.com/joshua906"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
-				<a href="https://www.linkedin.com/in/joshua-matthews-1b899893?trk=hp-identity-name"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
-					<a href="https://www.facebook.com/josh.matthews.3532"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a>
-				</div>
-			</div>
-		</div>
+ <footer>
+ <div class="matthews-footer">
+ 	<div class="container">
+ 		<div class="row">
+ 		<hr>
+ 			<div class="col-xs-12 col-md-6">
+ 				<p class="small-paragraph">Get In Touch</p>
+ 			</div>
+ 			<div class="col-xs-12 col-md-6">
+ 				<p class="small-paragraph-right">Dallas, Texas 75287 | 214-422-8721 | jm@matthewsdesigns.technology</p>
+ 			</div>
+ 		</div>
+ 		</div>
+ 		<div class="social-info">
+ 		<div class="container">
+ 			<div class="row">
+ 			<div class="col-xs-12 col-md-6"><p class="small-paragraph">&copy;2017 matthews designs </p></div>
+ 				<div class="col-xs-12 col-md-6">
+ 					<div class="small-paragraph-right">
+					<a href=""><i class="fa fa-medium fa-2x" aria-hidden="true" data-toggle="tooltip" title="Medium"></i></a>
+					<a href=""><i class="fa fa-facebook fa-2x" aria-hidden="true" data-toggle="tooltip" title="Facebook"></i></a>
+					<a href=""><i class="fa fa-instagram fa-2x" aria-hidden="true" data-toggle="tooltip" title="Instagram"></i></a>
+					<a href=""><i class="fa fa-behance fa-2x" aria-hidden="true" data-toggle="tooltip" title="Behance"></i></a>
+					</div>
+ 				</div>
+ 			</div>
+ 		</div>
+ 	</div>
 </div>
+ </footer>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

@@ -54,7 +54,8 @@ Professionals</b></h1>
 					<div class="col-md-12  intro text-center">
 					
 					<h1 class="matthews-headline">Hello I'm Joshua Matthews</h1>
-					<p>I help Instructors and Service Business Owners increase sales, course signups, and subscribers so they can make a profitable business even if they are in the early stages of development. I do this by understanding your target market and streamlining a process that will convert your visitors to paying customers. </p>
+						<hr>
+					<p>I help Instructors and Service Business Owners grow their business by increasing sales, course signups, and subscribers so they can make a profitable business even if they are in the early stages of development. I do this by understanding your target market and streamlining a process that will convert your visitors into paying customers. </p>
 					
 					<p>I am a business minded designer who understands the challenges businesses face when it comes to establishing a profitable website. If you are ready to build a effective website for your company and work with someone whose focus is in the success of your business, your in the right place</p>
 					
@@ -88,9 +89,17 @@ Professionals</b></h1>
 		</div>
 		</div>
 
+		<div class="matthews-divider">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<p>this is where the testimnoy will go</p>
+					</div>
+				</div>
+			</div>
+		</div>
 		
-		
-		<div class="testimony-color">
+	<!--	<div class="testimony-color">
 		<div class="container">
 				<div class="row">
 			<div class="col-md-12 text-center text-clients">
@@ -123,10 +132,18 @@ Professionals</b></h1>
 				?>
 			</div>
 		</div>
+		</div>-->
+		
+	<div class="caption">
+	   <div class="container-post">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<h1 class="matthews-headline">Ready to get your project started?</h1>
+					<a href="<?php echo get_page_link(6); ?>"><button>YES!</button></a>
+				</div>
+			</div>
 		</div>
-		
-		
-		
+	</div>
 		
 	
 <!--

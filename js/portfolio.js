@@ -125,4 +125,8 @@ $grid.imagesLoaded().progress( function() {
 }).resize();
 		
 	
+	$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();   
+});
+	
 });

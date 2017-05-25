@@ -26,7 +26,11 @@ p {
 	
 	
 }
-
+.matthews-headline {
+	font-size: 42px;
+	font-family: 'Arimo', sans-serif;
+	
+}
 .font-special{
 	font-weight: 300;
 }
@@ -169,7 +173,7 @@ a {
     position: relative;
     min-height: 50px;
     margin-bottom: 0px;
-    border-bottom: 1px solid grey;
+   
 }
 .top-pad {
 	padding-top: 0px;
@@ -186,12 +190,12 @@ a {
 .navbar-brands {
     float: left;
     height: 50px;
-    padding: 34px 15px;
+    padding: 18px 15px;
     font-size: 18px;
     line-height: 20px;
 }
 .nav {
-    padding: 25px 0px 0px 0px;
+    padding: 15px 0px 0px 0px;
 }
 .nav .navbar-nav .navbar-right>li>a:hover {
     padding-top: 15px;

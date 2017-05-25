@@ -17,7 +17,8 @@
                          	<div class="row">
                          		<div class="col-md-8">
                          		<div class="content-hero caption-hero">
-                   					<h1 class="small-font-family-white"><b>I make custom websites for Instructors and Service Business professionals</b></h1>
+                   					<h1 class="small-font-family-white"><b>I design custom websites & apps for Instructors and Service Business 
+Professionals</b></h1>
 									<!--<h1 class="font-change">I help Instructors and service businesses increase their sales, course signups, and subscribers through website design</h1>-->
 									<a href="<?php echo get_page_link(8); ?>"><button>VIEW PROJECTS &#8594;</button></a>
 								</div>
@@ -50,9 +51,9 @@
 		<div class="caption">
 			<div class="container-post">
 				<div class="row">
-					<div class="col-md-12  intro">
+					<div class="col-md-12  intro text-center">
 					
-					<h1>Hello I'm Joshua Matthews</h1>
+					<h1 class="matthews-headline">Hello I'm Joshua Matthews</h1>
 					<p>I help Instructors and Service Business Owners increase sales, course signups, and subscribers so they can make a profitable business even if they are in the early stages of development. I do this by understanding your target market and streamlining a process that will convert your visitors to paying customers. </p>
 					
 					<p>I am a business minded designer who understands the challenges businesses face when it comes to establishing a profitable website. If you are ready to build a effective website for your company and work with someone whose focus is in the success of your business, your in the right place</p>

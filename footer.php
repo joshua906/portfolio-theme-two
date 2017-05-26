@@ -19,11 +19,11 @@
  			<div class="col-xs-12 col-md-6"><p class="small-paragraph">&copy;2017 matthews designs </p></div>
  				<div class="col-xs-12 col-md-6">
  					<div class="small-paragraph-right">
-					<a href=""><i class="fa fa-medium fa-2x" aria-hidden="true" data-toggle="tooltip" title="Medium"></i></a>
-					<a href=""><i class="fa fa-facebook fa-2x" aria-hidden="true" data-toggle="tooltip" title="Facebook"></i></a>
-					<a href=""><i class="fa fa-instagram fa-2x" aria-hidden="true" data-toggle="tooltip" title="Instagram"></i></a>
-					<a href=""><i class="fa fa-behance fa-2x" aria-hidden="true" data-toggle="tooltip" title="Behance"></i></a>
-					<a href=""><i class="fa fa-google-plus fa-2x" aria-hidden="true" data-toggle="tooltip" title="Google Plus"></i></a>
+					<a href="https://medium.com/@jm_926"><i class="fa fa-medium fa-2x" aria-hidden="true" data-toggle="tooltip" title="Medium"></i></a>
+					<a href="https://www.facebook.com/ilikematthewsdesigns/"><i class="fa fa-facebook fa-2x" aria-hidden="true" data-toggle="tooltip" title="Facebook"></i></a>
+					<a href="https://www.instagram.com/matthews_1212/"><i class="fa fa-instagram fa-2x" aria-hidden="true" data-toggle="tooltip" title="Instagram"></i></a>
+					<a href="https://www.behance.net/jm7b2a"><i class="fa fa-behance fa-2x" aria-hidden="true" data-toggle="tooltip" title="Behance"></i></a>
+
 					</div>
  				</div>
  			</div>

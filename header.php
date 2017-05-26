@@ -27,15 +27,17 @@
 <!--Navigation Menu-->
 
 <div class="top-pad">
-<nav class="navbar class-white navbar-fixed-top text-effect">
+<nav class="navbar class-white text-effect">
   <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-		  <span class="sr-only">Toggle navigation</span>
+      <div style="float:left; padding-right: 15px;"><p>menu</p></div>
+		  <div style="float:right;"><span class="sr-only">Toggle navigation</span>
 		  <span class="icon-bar"></span>
 		  <span class="icon-bar"></span>
 		  <span class="icon-bar"></span>
+		  </div>
       </button>
       <a class="navbar-brands" href="<?php echo home_url(); ?>/"><img src="<?php echo get_template_directory_uri(); ?>/img/matthews-designs-logo.png" width="125" height="55" alt=""/></a>
       </div>

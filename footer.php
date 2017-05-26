@@ -23,6 +23,7 @@
 					<a href="https://www.facebook.com/ilikematthewsdesigns/"><i class="fa fa-facebook fa-2x" aria-hidden="true" data-toggle="tooltip" title="Facebook"></i></a>
 					<a href="https://www.instagram.com/matthews_1212/"><i class="fa fa-instagram fa-2x" aria-hidden="true" data-toggle="tooltip" title="Instagram"></i></a>
 					<a href="https://www.behance.net/jm7b2a"><i class="fa fa-behance fa-2x" aria-hidden="true" data-toggle="tooltip" title="Behance"></i></a>
+					<a href="https://www.linkedin.com/in/joshua-matthews-1b899893/"><i class="fa fa-linkedin fa-2x" aria-hidden="true" data-toggle="tooltip" title="LinkedIn"></i></a>
 
 					</div>
  				</div>

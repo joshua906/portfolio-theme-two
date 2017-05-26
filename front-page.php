@@ -38,16 +38,8 @@ Professionals</b></h1>
 </div>
             <!-- .featured-top -->	
 
-		<div class="headline-hook">
-		<div class="container-post">
-			<div class="row">
-				<div class="col-md-12 text-center font-special">
-					<!--<h1>Sick Of Designers Who Don’t Understand You And Your Business?</h1>-->
-				</div>
-			</div>
-		</div>
-		</div>
-		
+
+		<div class="spacing"></div>
 		<div class="caption">
 			<div class="container-post">
 				<div class="row">

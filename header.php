@@ -32,7 +32,7 @@
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-      <div style="float:left; padding-right: 15px;"><p>MENU</p></div>
+      <div class="menu" style="float:left; padding-right: 15px;"><p>MENU</p></div>
 		  <div style="float:right;"><span class="sr-only">Toggle navigation</span>
 		  <span class="icon-bar"></span>
 		  <span class="icon-bar"></span>

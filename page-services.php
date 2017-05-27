@@ -18,7 +18,7 @@
 
 						<p>Are you ready to grow your Business?</p>
 						
-						<a href="<?php echo get_page_link(6); ?>"><button>Im Ready!</button></a>
+						<a href="<?php echo get_page_link(10); ?>"><button>Im Ready!</button></a>
 					</div>
 				</div>
 			</div>
@@ -70,7 +70,7 @@
 			<div class="row">
 				<div class="col-md-12 text-center">
 					<h1 class="matthews-headline">Ready to get your project started?</h1>
-					<a href="<?php echo get_page_link(6); ?>"><button>YES!</button></a>
+					<a href="<?php echo get_page_link(10); ?>"><button>YES!</button></a>
 				</div>
 			</div>
 		</div>

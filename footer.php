@@ -5,10 +5,10 @@
  	<div class="container">
  		<div class="row">
  		<hr>
- 			<div class="col-xs-12 col-md-6">
+ 			<div class="col-xs-12 col-sm-6  col-md-6">
  				<p class="small-paragraph">Get In Touch</p>
  			</div>
- 			<div class="col-xs-12 col-md-6">
+ 			<div class="col-xs-12 col-sm-6 col-md-6">
  				<p class="small-paragraph-right">Dallas, Texas 75287 | 214-422-8721 | jm@matthewsdesigns.technology</p>
  			</div>
  		</div>
@@ -16,8 +16,8 @@
  		<div class="social-info">
  		<div class="container">
  			<div class="row">
- 			<div class="col-xs-12 col-md-6"><p class="small-paragraph">&copy;2017 matthews designs </p></div>
- 				<div class="col-xs-12 col-md-6">
+ 			<div class="col-xs-12 col-sm-6  col-md-6"><p class="small-paragraph">&copy;2017 matthews designs </p></div>
+ 				<div class="col-xs-12 col-sm-6  col-md-6">
  					<div class="small-paragraph-right">
 					<a href="https://medium.com/@jm_926"><i class="fa fa-medium fa-2x" aria-hidden="true" data-toggle="tooltip" title="Medium"></i></a>
 					<a href="https://www.facebook.com/ilikematthewsdesigns/"><i class="fa fa-facebook fa-2x" aria-hidden="true" data-toggle="tooltip" title="Facebook"></i></a>

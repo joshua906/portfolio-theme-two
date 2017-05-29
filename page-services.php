@@ -8,15 +8,15 @@
 					<div class="col-md-12">
 						<h1 class="matthews-headline">Lets work together</h1>
 						<hr class="text-left">
-						<p>Are you an ambitious Instructor or service business owner looking to increase your course signups and subscribers to grow your business?
+						<p>Are you an ambitious instructor or service business owner looking to grow your business through your website?</p>
 
-						<p>Are you a consultant looking to expand</p>
+						<p>Are you a consultant looking to establish a strong online presence that attracts your ideal clients for your business?</p>
 
-						<p>Do you feel like your current website has been holding your business back, but you are unsure of where to start to fix it?</p>
+						<p>Or, do you feel like your current website has been holding your business back, but aren't sure where to start to fix it?</p>
 	
-						<p>If you answered yes to any of the questions above then I can help. Through my step by step process we will identify your business goals and how we can translate that to produce a profitable website that increases your sales, course signups, and subscribers. </p>
+						<p>If you answered yes to any of the questions above then I can help. Through my step by step process we will identify your business goals and form a strategy that increases your course signups, subscribers, and sales. </p>
 
-						<p>Are you ready to grow your Business?</p>
+						<p><em>Are you ready to grow your business?</em></p>
 						
 						<a href="<?php echo get_page_link(10); ?>"><button>Im Ready!</button></a>
 					</div>
@@ -46,7 +46,7 @@
 					<h3 class="blue-heading">2. Wireframe, Prototype & UI/UX Design</h3>
 					<p>I recognize that you need a beautiful site to reach your audience. But my design decisions aren't based off of solely what looks good or what I like the most. Rather, design should be used to guide the user through your website and call them to action. By combining both strategy and design, I will create an intuitive experience that accomplishes your business goals. </p>
 					
-					<h3 class="blue-heading">3. Development, Launch & Iteration</h3>
+					<h3 class="blue-heading">3. Development, Launch & Revise</h3>
 					<p>Your new site has now been developed and launched (Woohoo!), but our work isn't over yet. Your site is a living organism and should be treated as such. To ensure your projects future success, I will analyze, and revise anything that may be causing friction within your site and keeping your customers from converting.</p>
 					
 					

@@ -20,7 +20,7 @@
                    					<h1 class="small-font-family-white"><b>I design custom websites & apps for Instructors and Service Business 
 Professionals</b></h1>
 									<!--<h1 class="font-change">I help Instructors and service businesses increase their sales, course signups, and subscribers through website design</h1>-->
-									<a href="<?php echo get_page_link(8); ?>"><button>VIEW PROJECTS &#8594;</button></a>
+									<a href="<?php echo get_page_link(8); ?>" class="button-center"><button>VIEW PROJECTS &#8594;</button></a>
 								</div>
                          		</div>
                          	</div>
@@ -49,9 +49,9 @@ Professionals</b></h1>
 						<hr>
 					<p>I help Instructors and Service Business Owners grow their business by increasing sales, course signups, and subscribers so they can make a profitable business even if they are in the early stages of development. I do this by understanding your target market and streamlining a process that will convert your visitors into paying customers. </p>
 					
-					<p>I am a business minded designer who understands the challenges businesses face when it comes to establishing a profitable website. If you are ready to build a effective website for your company and work with someone whose focus is in the success of your business, your in the right place</p>
+					<p>I am a business minded designer who understands the challenges businesses face when it comes to establishing a profitable website. If you are ready to build a effective website for your company and work with someone whose focus is in the success of your business, your in the right place.</p>
 					
-					<p>Check out my latest articles for tips and actionable ways to grow your business today!</p>
+					<p>Want to see how I can conrtibute to your bussiness success?</p>
 				<!--<?php 
 	
 				if( have_posts() ):
@@ -81,7 +81,7 @@ Professionals</b></h1>
 		</div>
 		</div>
 
-		<div class="matthews-divider">
+	<!--	<div class="matthews-divider">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
@@ -89,7 +89,7 @@ Professionals</b></h1>
 					</div>
 				</div>
 			</div>
-		</div>
+		</div>-->
 		
 	<!--	<div class="testimony-color">
 		<div class="container">
@@ -126,6 +126,59 @@ Professionals</b></h1>
 		</div>
 		</div>-->
 		
+		
+		
+		
+		<!-- #testimonials -->
+        <div id="testimonials" class="bg-grey padding-top100 padding-bottom60">
+            
+            <!-- .container -->
+            <div class="container-post">
+                
+                <div class="caption post-heading-center animation" data-animation="animation-fade-in-down">
+                    <h2>Kind words from good people</h2>
+                    <hr>
+                    <p></p>
+                </div>
+                
+				<!-- .row -->
+                <div class="row">
+                	
+                	<div class="col-md-12"> <!-- 1 -->
+                	<?php
+			$args = array('post_type' => 'testimony', 'post_per_page' => 3 );
+				$loop = new WP_Query( $args );
+
+				if( $loop->have_posts() ):
+
+					while( $loop->have_posts() ): $loop->the_post(); ?> 
+                		<div class="affa-testimonial3 animation" data-animation="animation-fade-in-down">
+                			<div class="testimonial-txt">
+                				<p><?php the_content(); ?></p>
+                			</div>
+                            <div class="testimonial-name">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/george-garcia.jpg" alt="Avatar-george">
+                                <h4>George Garcia</h4>
+                                <p>CEO & Founder, <span>Egg Entertainment</span></p>
+                            </div>
+                		</div>
+                <?php endwhile;
+
+				endif;
+
+				?>
+                	</div>
+                	
+                	
+                </div>
+
+				
+            </div>
+            <!-- .container end -->
+            
+        </div>
+        <!-- #testimonials end -->
+		
 	<div class="caption">
 	   <div class="container-post">
 			<div class="row">
@@ -137,7 +190,7 @@ Professionals</b></h1>
 		</div>
 	</div>
 		
-	
 
+	
 
 <?php get_footer(); ?>

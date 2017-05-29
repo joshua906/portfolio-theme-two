@@ -47,7 +47,7 @@
 					
 							<!--<input type="text" name="company" placeholder="company" id="company"><br>-->
 							<div class="form-group-two">
-							<textarea type="text" name="message" placeholder="message" id="message"></textarea>
+							<textarea type="text" name="message" placeholder="Tell me about your project" id="message"></textarea>
 							<small class="form-control-msg text-danger">Your Email is Required</small><br>
 							</div>
 						

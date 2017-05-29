@@ -27,6 +27,7 @@
 <!--Navigation Menu-->
 
 <div class="top-pad">
+
 <nav class="navbar class-white text-effect">
   <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->

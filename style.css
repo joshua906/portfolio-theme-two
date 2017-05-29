@@ -81,7 +81,7 @@ p {
 	font-family: 'Arimo', sans-serif;
 	font-weight: 400;
 	color: #fff;
-	font-size: 2.625em;
+	font-size: 3.0em;
 	
 }
 .container-post {
@@ -139,7 +139,7 @@ a {
     border-radius: 25px;
     margin-top: 30px;
     font-family: 'Arimo', sans-serif;
-	min-width: 190px;
+	min-width: 215px;
 	box-shadow: 0px 7px 28px rgba(23,43,99,0.2);
 
 }
@@ -186,7 +186,7 @@ a {
     margin-top: 30px;
    font-family: 'Arimo', sans-serif;
     transition-duration: .4s;
-	min-width: 190px;
+	min-width: 215px;
 
 }
 /************* New Navigation ***************/
@@ -195,7 +195,7 @@ a {
     min-height: 50px;
     margin-bottom: 0px;
    border-bottom: 1px solid #F1F1F1;
-	    box-shadow: 0px 1px 15px rgba(23,43,99,0.2);
+	    /*box-shadow: 0px 1px 15px rgba(23,43,99,0.2);*/
 }
 .menu{
 	float:left; 
@@ -224,7 +224,7 @@ a {
     line-height: 20px;
 }
 .nav {
-    padding: 15px 0px 0px 0px;
+    padding: 10px 0px 3px 0px;
 }
 .nav .navbar-nav .navbar-right>li>a:hover {
     padding-top: 15px;
@@ -480,6 +480,22 @@ a:hover {
 	
 }
 
+@media (max-width: 450px){
+
+.small-font-family-white {
+	font-family: 'Arimo', sans-serif;
+	font-weight: 400;
+	color: #fff;
+	font-size: 2.4em;
+	
+	
+	
+}
+	.button-center{
+		align-content: center;
+	}
+	
+}
 
 
 /*blog post thumbnail*/
@@ -547,6 +563,153 @@ a:hover {
 	background-color: #F9F9F9;
 	padding: 50px 0px;
 	
+}
+/********************** new testimony section***********************/
+
+.post-heading-center, .post-heading-center2 {
+    margin-bottom: 60px;
+}
+
+@media (max-width: 1199px) and (min-width: 992px){
+
+	
+.post-heading-center, .post-heading-center2 {
+    padding: 0px 110px;
+}
+	
+}
+
+.post-heading-center {
+    text-align: center;
+    padding: 0px 115px;
+    margin-bottom: 50px;
+}
+
+.post-heading-center h2, .post-heading-center h4 {
+    font-weight: 700;
+}
+
+.post-heading-left h2, .post-heading-center h2 {
+    font-size: 36px;
+    line-height: 44px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0px;
+}
+
+.post-heading-center p, .post-heading-center2 p {
+    color: #777;
+    font-weight: 300;
+}
+
+.post-heading-left p, .post-heading-center p {
+    color: #a9a9a9;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    margin: 15px 0px 0px;
+}
+
+.affa-testimonial3 {
+    margin-bottom: 60px;
+}
+
+.bg-grey .affa-testimonial3 .testimonial-txt, .text-white .affa-testimonial3 .testimonial-txt {
+    background-color: #FFF;
+}
+
+.affa-testimonial3 .testimonial-txt {
+    position: relative;
+    color: #777;
+    background-color: #f4f4f4;
+    padding: 30px 25px;
+    border-radius: 3px;
+}
+.affa-testimonial3 .testimonial-txt p {
+    margin: 0px;
+	font-size: 16px;
+}
+
+.bg-grey .affa-testimonial3 .testimonial-txt:after, .text-white .affa-testimonial3 .testimonial-txt:after {
+    border-top-color: #FFF;
+}
+
+.affa-testimonial3 .testimonial-txt:after {
+    position: absolute;
+    bottom: -12px;
+    left: 30px;
+    content: '';
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-top: 12px solid #f4f4f4;
+}
+
+.affa-testimonial3 .testimonial-name {
+    position: relative;
+    min-height: 80px;
+    padding: 12px 0px 0px 100px;
+    margin-top: 25px;
+}
+.affa-testimonial3 .testimonial-name img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.affa-testimonial3 .testimonial-name h4 {
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    margin: 0px;
+	margin-bottom: 0px !important;
+	padding: 0px 0px !important;
+}
+
+.affa-testimonial3 .testimonial-name p {
+    color: #c0c0c0;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+    margin: 2px 0px 0px;
+}
+.affa-testimonial3 .testimonial-name p span {
+    color: #26ACE3;
+    font-weight: 500;
+}
+
+.padding-top100 {
+    padding-top: 60px !important;
+}
+
+.affa-testimonial3 .testimonial-name {
+    position: relative;
+    min-height: 80px;
+    padding: 12px 0px 0px 100px;
+    margin-top: 25px;
+}
+
+.padding-bottom80 {
+    padding-bottom: 80px !important;
+}
+
+.padding-top80 {
+    padding-top: 80px !important;
+}
+
+.bg-grey {
+    background-color: #f9f9f9;
+}
+
+.bg-white, .bg-grey, .bg-dark, .bg-color {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	margin-top: 80px;
+	margin-bottom: 50px;
 }
 
 /****************** Testimonials section********************/

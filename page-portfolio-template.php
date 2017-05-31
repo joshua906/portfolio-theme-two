@@ -8,9 +8,9 @@
 
 get_header(); ?>
 
-
+<div class="spacing"></div>
 	<!-- Home header -->
-		<div class="matthews-divider-topics caption">
+		<div class="matthews-spacing caption">
 			<div class="container-post">
 				<div class="row">
 					<div class="col-md-12">

@@ -27,6 +27,7 @@ p {
 .caption hr{
 	width: 18%;
 	border-top: 4px solid #26ACE3 !important;
+	text-align: left;
 }
 .matthews-headline {
 	font-size: 42px;
@@ -54,8 +55,10 @@ p {
 .category-text-title {
  	text-decoration: none;
  	color: #222;
-	
-	
+}
+
+.matthews-spacing{
+	padding-top: 80px;
 }
 .font-family{
 	font-family: 'Arimo', sans-serif;
@@ -80,8 +83,8 @@ p {
 .small-font-family-white {
 	font-family: 'Arimo', sans-serif;
 	font-weight: 400;
-	color: #fff;
-	font-size: 3.4em;
+	color: #222;
+	font-size: 3.6em;
 	
 }
 .container-post {
@@ -145,8 +148,8 @@ a {
 }
 .caption-hero button {
     background-color: transparent;
-    border: 1px solid #fff;
-    color: white;
+    border: 1px solid #26ACE3;
+    color: #26ACE3;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -189,6 +192,11 @@ a {
 	min-width: 215px;
 
 }
+/* text hero */
+
+.text-hero{
+	padding: 210px 0px 105px 0px ;
+}
 /************* New Navigation ***************/
 .navbar {
     position: relative;
@@ -196,6 +204,11 @@ a {
     margin-bottom: 0px;
    border-bottom: 1px solid #F1F1F1;
 	    /*box-shadow: 0px 1px 15px rgba(23,43,99,0.2);*/
+}
+.navbar-fixed-top {
+position: fixed;
+	top: 0;
+margin-bottom: 70px;
 }
 .menu{
 	float:left; 
@@ -219,12 +232,12 @@ a {
 .navbar-brands {
     float: left;
     height: 50px;
-    padding: 18px 15px;
+    padding: 13px 15px;
     font-size: 18px;
     line-height: 20px;
 }
 .nav {
-    padding: 10px 0px 3px 0px;
+    padding: 5px 0px 3px 0px;
 }
 .nav .navbar-nav .navbar-right>li>a:hover {
     padding-top: 15px;
@@ -561,7 +574,7 @@ a:hover {
 	border-top: 1px solid #F1F1F1;
 	border-bottom: 1px solid #F1F1F1;
 	background-color: #F9F9F9;
-	padding: 50px 0px;
+	padding: 155px 0px 50px 0px;
 	
 }
 /********************** new testimony section***********************/
@@ -592,7 +605,7 @@ a:hover {
 .post-heading-left h2, .post-heading-center h2 {
     font-size: 36px;
     line-height: 44px;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     letter-spacing: 1px;
     margin: 0px;
 }
@@ -1008,6 +1021,7 @@ figure.effect-bubba:hover p {
 	margin-top: 20px;
 }
 /************ Contact Page ***************/
+
 form {
 	padding-top: 15px;
 }
@@ -1095,9 +1109,9 @@ textarea {
     -o-transition: background-color 250ms linear, border 250ms linear, color 250ms linear;
     -ms-transition: background-color 250ms linear, border 250ms linear, color 250ms linear;
     transition: background-color 250ms linear, border 250ms linear, color 250ms linear;
-    border-radius: 1px;
-    -moz-border-radius: 1px;
-    -webkit-border-radius: 1px;
+    border-radius: 25px;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
 }
 
 /************** porfolio pages *************/

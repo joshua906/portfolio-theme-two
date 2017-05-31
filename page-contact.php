@@ -1,15 +1,21 @@
 <?php get_header(); ?>
-
-		<div class="matthews-divider-topics caption">
+<div class="spacing"></div>
+		<div class="matthews-spacing caption">
 			<div class="container-post">
 				<div class="row">
 					<div class="col-md-12">
-						<h1 class="matthews-headline text-center">Lets build something great</h1>
+						<h1 class="matthews-headline text-center">Ready to make an investment in your business?</h1>
 						<hr>
 					</div>
 				</div>
 			</div>
 		</div>
+		<!-- hero image -->
+			<div class="matthews-service-image-padding">
+			<div class="featured-top-blog">
+				<img src="<?php echo get_template_directory_uri(); ?>/img/matthews-contact-hero.jpg" alt="Matthews Service image">
+			</div>
+			</div>
 		<!-- form -->
 
 		<div class="contact-form">
@@ -18,7 +24,7 @@
 					<div class="col-md-12">
 					
 								<div>
-									<p class="text-center">I look forward to hearing about your project and being a part of your business success. Fill out my form and I will get back to you within 24 hours.</p>
+									<p class="">I look forward to hearing about your project and being a part of your business success. Fill out my form and I will get back to you within 24 hours.</p>
 								</div>
 						<form action="#" method="post" id="portfolioContactForm" data-url="<?php echo admin_url('admin-ajax.php') ?>">
 						
@@ -67,6 +73,19 @@
 			</div>
 		</div>
 		
+<!-- additional links -->
 
+<div class="spacing"></div>
+<div class="container-post">
+	<div class="row">
+		<div class="col-md-12">
+		<h4>GET IN TOUCH</h4>
+			<p><i class="fa fa-envelope" aria-hidden="true"></i> email: jm@matthewsdesigns.technology</p>
+			 <p><i class="fa fa-twitter" aria-hidden="true"></i> twitter: @jmatthews_12</p> 
+			   <p><i class="fa fa-facebook" aria-hidden="true"></i>facebook: @ilikematthewsdesigns</p> 
+			   <p><i class="fa fa-mobile" aria-hidden="true"></i> 214/422/8721</p>
+		</div>
+	</div>
+</div>
 
 <?php get_footer(); ?>

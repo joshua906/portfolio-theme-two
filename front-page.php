@@ -1,16 +1,16 @@
 <?php get_header(); ?>
 
-<!-- Home header -->
+<!-- Home header 
 	
   <div class="featured-top">
                     
                 
     
-                <!-- .post-thumbnail -->
-                <div class="post-thumbnail">
+                <!-- .post-thumbnail 
+                <div class="post-thumbnail" id="hero">
                          
                                 
-                    <!-- .entry-header -->
+                    <!-- .entry-header 
                     <header class="entry-header">
                         
                          <div class="container">
@@ -19,37 +19,65 @@
                          		<div class="content-hero caption-hero">
                    					<h1 class="small-font-family-white"><b>I design custom websites & apps for Instructors and Service Business 
 Professionals</b></h1>
-									<!--<h1 class="font-change">I help Instructors and service businesses increase their sales, course signups, and subscribers through website design</h1>-->
+									<!--<h1 class="font-change">I help Instructors and service businesses increase their sales, course signups, and subscribers through website design</h1>
 									<a href="<?php echo get_page_link(8); ?>" class="button-center"><button>VIEW PROJECTS &#8594;</button></a>
 								</div>
                          		</div>
                          	</div>
                          </div>               
-                        <!-- .entry-meta -->
+                        <!-- .entry-meta 
 
 
                         
                     </header>
-                    <!-- .entry-header -->
+                    <!-- .entry-header 
                     
                 </div>
-            	<!-- .post-thumbnail -->
+            	<!-- .post-thumbnail 
                 
 </div>
-            <!-- .featured-top -->	
+            <!-- .featured-top -->
+            			<div class="text-hero">	
+        				<div class="container">
+                         	<div class="row">
+                         		<div class="col-xs-12 col-md-12">
+                         		<div class="content-hero caption-hero text-center">
+                   					<h1 class="small-font-family-white text-center"><b>I provide result driven Websites & Apps for Intructors and Service Business Owners </b></h1>
+								
+									<!--<h1 class="font-change">I help Instructors and service businesses increase their sales, course signups, and subscribers through website design</h1>-->
+									<a href="<?php echo get_page_link(8); ?>" class="button-center"><button>VIEW PROJECTS &#8594;</button></a>
+								</div>
+                         		</div>
+                         	</div>
+                         </div>
+                         </div>              
 
-
+<!-- new hero image -->
+	
+	
+			<div class="matthews-service-image-padding">
+			<div class="featured-top-blog">
+				<img src="<?php echo get_template_directory_uri(); ?>/img/matthews-background-hero.jpg" alt="Matthews Service image">
+			</div>
+			</div>
+	
+	
+	
+	
+	
+	
+	<!-- intro duction -->
 		<div class="spacing"></div>
 		<div class="caption">
 			<div class="container-post">
 				<div class="row">
-					<div class="col-md-12  intro text-center">
+					<div class="col-md-12  intro">
 					
 					<h1 class="matthews-headline">Hello I'm Joshua Matthews</h1>
 						<hr>
 					<p>I help Instructors and Service Business Owners grow their business by increasing sales, course signups, and subscribers so they can make a profitable business even if they are in the early stages of development. I do this by understanding your target market and streamlining a process that will convert your visitors into paying customers. </p>
 					
-					<p>I am a business minded designer who understands the challenges businesses face when it comes to establishing a profitable website. If you are ready to build a effective website for your company and work with someone whose focus is in the success of your business, your in the right place.</p>
+					<p>I am a business minded designer who understands the challenges businesses face when it comes to establishing a profitable website. If you are ready to build an effective website for your company and work with someone whose focus is in the success of your business, your in the right place.</p>
 					
 					<p>Want to see how I can conrtibute to your bussiness success?</p>
 				<!--<?php 
@@ -74,7 +102,7 @@ Professionals</b></h1>
 		
 		<div class="container-post">
 			<div class="row">
-				<div class="col-md-12 text-center">
+				<div class="col-md-12">
 					<a href="<?php echo get_page_link(158); ?>"><button>Work WIth Me</button></a>
 				</div>
 			</div>
@@ -136,7 +164,7 @@ Professionals</b></h1>
             <div class="container-post">
                 
                 <div class="caption post-heading-center animation" data-animation="animation-fade-in-down">
-                    <h2>Kind words from good people</h2>
+                    <h2>What people say</h2>
                     <hr>
                     <p></p>
                 </div>

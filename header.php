@@ -28,7 +28,7 @@
 
 <div class="top-pad">
 
-<nav class="navbar class-white text-effect">
+<nav class="navbar class-white text-effect navbar-fixed-top">
   <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">

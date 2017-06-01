@@ -42,7 +42,7 @@ Professionals</b></h1>
                          	<div class="row">
                          		<div class="col-xs-12 col-md-12">
                          		<div class="content-hero caption-hero text-center">
-                   					<h1 class="small-font-family-white text-center"><b>I provide result driven Websites & Apps for Intructors and Service Business Owners </b></h1>
+                   					<h1 class="small-font-family-white text-center"><b>I provide result driven Websites & Apps for Instructors and Service Business Owners </b></h1>
 								
 									<!--<h1 class="font-change">I help Instructors and service businesses increase their sales, course signups, and subscribers through website design</h1>-->
 									<a href="<?php echo get_page_link(8); ?>" class="button-center"><button>VIEW PROJECTS &#8594;</button></a>
@@ -68,10 +68,11 @@ Professionals</b></h1>
 	
 	<!-- intro duction -->
 		<div class="spacing"></div>
+		<div class="intro">
 		<div class="caption">
 			<div class="container-post">
 				<div class="row">
-					<div class="col-md-12  intro">
+					<div class="col-md-12">
 					
 					<h1 class="matthews-headline">Hello I'm Joshua Matthews</h1>
 						<hr>
@@ -79,7 +80,7 @@ Professionals</b></h1>
 					
 					<p>I am a business minded designer who understands the challenges businesses face when it comes to establishing a profitable website. If you are ready to build an effective website for your company and work with someone whose focus is in the success of your business, your in the right place.</p>
 					
-					<p>Want to see how I can conrtibute to your bussiness success?</p>
+					<p>Are you ready to invest in your business?</p>
 				<!--<?php 
 	
 				if( have_posts() ):
@@ -99,16 +100,17 @@ Professionals</b></h1>
 				
 				</div>
 			</div>
+			
 		
 		<div class="container-post">
 			<div class="row">
 				<div class="col-md-12">
-					<a href="<?php echo get_page_link(158); ?>"><button>Work WIth Me</button></a>
+					<a href="<?php echo get_page_link(158); ?>"><button>Work With Me</button></a>
 				</div>
 			</div>
 		</div>
 		</div>
-
+</div>
 	<!--	<div class="matthews-divider">
 			<div class="container">
 				<div class="row">

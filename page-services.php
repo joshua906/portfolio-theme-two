@@ -2,17 +2,17 @@
 	
 	<!-- Lets work together -->
 	
-		<div class="matthews-divider-topics caption">
-			<div class="container-post">
+		<div class="matthews-divider-topics">
+			<div class="container-post caption">
 				<div class="row">
 					<div class="col-md-12">
 						<h1 class="matthews-headline">Lets work together</h1>
 						<hr class="text-left">
-						<p>Are you an ambitious instructor or service business owner looking to grow your business through your website?</p>
+						<p>Are you an ambitious instructor or service business owner looking to grow your business by attracting your ideal clients for your business</p>
 
 						<p>Are you a consultant looking to establish a strong online presence that attracts your ideal clients for your business?</p>
 
-						<p>Or, do you feel like your current website has been holding your business back, but aren't sure where to start to fix it?</p>
+						<p>Have you felt like your current website has been holding your business back, but aren't sure where to start to fix it?</p>
 	
 						<p>If you answered yes to any of the questions above then I can help. Through my step by step process we will identify your business goals and form a strategy that increases your course signups, subscribers, and sales. </p>
 
@@ -23,6 +23,40 @@
 				</div>
 			</div>
 			
+			
+			<div class="container-post">
+			<hr>
+			</div>
+			
+			
+	<!-- What I can do for you -->
+		<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h1 class="matthews-headline text-center">What I Can Do For You</h1>
+			</div>
+		</div>
+			<div class="row">
+				<div class="col-md-4">
+					<h3 class="blue-heading">UX Design</h3>
+					<p>UX(User Experience Design) is a strategy that focuses on improving customer satisfaction and pleasure when interacting with a brands product.</p>
+				</div>
+				<div class="col-md-4">
+					<h3 class="blue-heading">UI Design</h3>
+					<p>UI (User Interface Design) design focuses on how the addition of color, imagery, and fonts can help make the users interaction simple and intuitive.</p>
+				</div>
+				<div class="col-md-4">
+					<h3 class="blue-heading">Application Development </h3>
+					<p>I provide custom solutions that are designed to attract and get your visitors to take action. All of my websites are built on the WordPress platform.</p>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		
+		
+	<!-- Image -->
 			<div class="spacing"></div>
 			
 			<div class="matthews-service-image-padding">

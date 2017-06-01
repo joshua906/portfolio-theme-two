@@ -13,9 +13,9 @@ get_header(); ?>
 		<div class="matthews-spacing caption">
 			<div class="container-post">
 				<div class="row">
-					<div class="col-md-12">
+					<div class="col-md-12 text-center">
 						<h1 class="matthews-headline text-center">How my design solutions solved problems for clients</h1>
-						<hr>
+						<hr class="text-center">
 					</div>
 				</div>
 			</div>

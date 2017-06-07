@@ -3,7 +3,7 @@
 		<div class="matthews-spacing caption">
 			<div class="container-post">
 				<div class="row">
-					<div class="col-md-12">
+					<div class="col-md-12 text-center">
 						<h1 class="matthews-headline text-center">Ready to make an investment in your business?</h1>
 						<hr>
 					</div>

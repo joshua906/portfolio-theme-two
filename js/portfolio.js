@@ -130,7 +130,7 @@ $grid.imagesLoaded().progress( function() {
 });
 	
 	
-
+$('#animate').addClass('animated bounceOutLeft');
 	
 	
 	

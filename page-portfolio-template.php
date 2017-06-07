@@ -10,12 +10,12 @@ get_header(); ?>
 
 <div class="spacing"></div>
 	<!-- Home header -->
-		<div class="matthews-spacing caption">
+		<div class="matthews-spacing headline">
 			<div class="container-post">
 				<div class="row">
 					<div class="col-md-12 text-center">
 						<h1 class="matthews-headline text-center">How my design solutions solved problems for clients</h1>
-						<hr class="text-center">
+						<hr class="">
 					</div>
 				</div>
 			</div>

@@ -42,7 +42,7 @@ Professionals</b></h1>
                          	<div class="row">
                          		<div class="col-xs-12 col-md-12">
                          		<div class="content-hero caption-hero text-center">
-                   					<h1 class="small-font-family-white text-center"><b>I provide result driven Websites & Apps for Instructors and Service Business Owners </b></h1>
+                   					<h1 class="small-font-family-white text-center"><b>I design result driven Websites & Apps for Instructors and Service Business Owners </b></h1>
 								
 									<!--<h1 class="font-change">I help Instructors and service businesses increase their sales, course signups, and subscribers through website design</h1>-->
 									<a href="<?php echo get_page_link(8); ?>" class="button-center"><button>VIEW PROJECTS &#8594;</button></a>
@@ -72,13 +72,13 @@ Professionals</b></h1>
 		<div class="caption">
 			<div class="container-post">
 				<div class="row">
-					<div class="col-md-12">
+					<div class="col-md-12 text-center" id="animate">
 					
-					<h1 class="matthews-headline">Hello I'm Joshua Matthews</h1>
-						<hr>
-					<p>I help Instructors and Service Business Owners grow their business by increasing sales, course signups, and subscribers so they can make a profitable business even if they are in the early stages of development. I do this by understanding your target market and streamlining a process that will convert your visitors into paying customers. </p>
+					<h1 class="matthews-headline text-center">Hello I'm Joshua Matthews</h1>
+				
+					<p>I help Instructors and Service Business Owners grow their business by increasing sales, course signups, and subscribers so they can make a profitable company even if they are in the early stages of development. I do this by understanding your target market and streamlining a process that will convert your visitors into paying customers. </p>
 					
-					<p>I am a business minded designer who understands the challenges businesses face when it comes to establishing a profitable website. If you are ready to build an effective website for your company and work with someone whose focus is in the success of your business, your in the right place.</p>
+					<p>I am a business minded designer who understands the challenges businesses face when it comes to establishing a profitable website and mobile application. If you are ready to build an effective website for your company and work with someone whose focus is in the success of your business, your in the right place.</p>
 					
 					<p>Are you ready to invest in your business?</p>
 				<!--<?php 
@@ -104,7 +104,7 @@ Professionals</b></h1>
 		
 		<div class="container-post">
 			<div class="row">
-				<div class="col-md-12">
+				<div class="col-md-12 text-center">
 					<a href="<?php echo get_page_link(158); ?>"><button>Work With Me</button></a>
 				</div>
 			</div>
@@ -163,11 +163,11 @@ Professionals</b></h1>
         <div id="testimonials" class="bg-grey padding-top100 padding-bottom60">
             
             <!-- .container -->
-            <div class="container-post">
+            <div class="container">
                 
-                <div class="caption post-heading-center animation" data-animation="animation-fade-in-down">
-                    <h2>What people say</h2>
-                    <hr>
+                <div class="caption post-heading-center text-center animation" data-animation="animation-fade-in-down">
+                    <h2>What People Say</h2>
+                  
                     <p></p>
                 </div>
                 

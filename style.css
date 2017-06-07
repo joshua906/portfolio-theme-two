@@ -27,9 +27,18 @@ p {
 .caption hr{
 	width: 18%;
 	border-top: 4px solid #26ACE3 !important;
-	text-align: center;
+	text-align: left !important;
+	align-content: left;
 }
 
+.headline hr{
+	width: 18%;
+	border-top: 4px solid red !important;
+	text-align: center !important;
+}
+.questions-style {
+	font-size: 22px;
+}
 
 
 .matthews-headline {
@@ -97,10 +106,20 @@ p {
     margin-right: auto;
     margin-left: auto;
 }
+
+.container {
+	
+	padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
 @media (min-width: 768px){
 .container-post {
    width:760px;
 }
+	
+	
 
 }
 .big{
@@ -121,6 +140,13 @@ a {
 	margin-top: 3px;
 }
 	.container-post {
+    padding-right: 25px;
+    padding-left: 25px;
+    margin-right: auto;
+    margin-left: auto;
+}
+	.container {
+	
     padding-right: 25px;
     padding-left: 25px;
     margin-right: auto;
@@ -501,11 +527,11 @@ a:hover {
 .small-font-family-white {
 	font-family: 'Arimo', sans-serif;
 	font-weight: 400;
-	color: #fff;
+	color: #222;
 	font-size: 2.4em;
-	
-	
-	
+}
+	.text-hero {
+    padding: 175px 0px 65px 0px;
 }
 	.button-center{
 		align-content: center;
@@ -597,7 +623,7 @@ a:hover {
 
 .post-heading-center {
     text-align: center;
-    padding: 0px 115px;
+    padding: 0px 20px;
     margin-bottom: 50px;
 }
 
@@ -802,7 +828,7 @@ a:hover {
 /************** The services ******************/
 
 .matthews-service-image-padding {
-	margin-top: 120px;
+	margin-top: 100px;
 	margin-bottom: 60px;
 }
 .matthews-service-image-padding .featured-top-blog img{
@@ -813,6 +839,12 @@ a:hover {
 }
 .blue-heading {
 	color: #26ACE3;
+}
+@media only screen and (max-width: 450px){
+	.matthews-service-image-padding {
+	margin-top: 65px;
+	margin-bottom: 40px;
+}
 }
 /************ The Work Sections *******************/
 .portfolio-intro{
@@ -1244,6 +1276,7 @@ top: 0px;
     -webkit-transform: perspective(160px) rotateX(-180deg) rotateY(-180deg);
   }
 }
+
 
 /************** Aniomations ********************/
 

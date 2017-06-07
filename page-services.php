@@ -1,18 +1,18 @@
 <?php get_header(); ?>
 	
 	<!-- Lets work together -->
-	
-		<div class="matthews-divider-topics">
+	<div class="spacing"></div>
+		<div class="matthews-spacing">
 			<div class="container-post caption">
 				<div class="row">
 					<div class="col-md-12">
 						<h1 class="matthews-headline">Lets work together</h1>
 						<hr class="text-left">
-						<p>Are you an ambitious instructor or service business owner looking to grow your business by attracting your ideal clients for your business</p>
+						<p>Are you an ambitious instructor looking to grow your business through your website?</p>
 
-						<p>Are you a consultant looking to establish a strong online presence that attracts your ideal clients for your business?</p>
+						<p>Are you a service business owner who wants to establish s strong online presence while convincing your viewrs that you are an authority in your industry?</p>
 
-						<p>Have you felt like your current website has been holding your business back, but aren't sure where to start to fix it?</p>
+						<p>Or, Have you felt like your current website has been more of an expense and not an investment, but aren't sure how to fix it?</p>
 	
 						<p>If you answered yes to any of the questions above then I can help. Through my step by step process we will identify your business goals and form a strategy that increases your course signups, subscribers, and sales. </p>
 
@@ -23,13 +23,14 @@
 				</div>
 			</div>
 			
-			
+			<div class="spacing"></div>
 			<div class="container-post">
 			<hr>
 			</div>
 			
 			
 	<!-- What I can do for you -->
+	<div class="my-process">
 		<div class="container">
 		<div class="row">
 			<div class="col-md-12">
@@ -51,6 +52,7 @@
 				</div>
 			</div>
 		</div>
+	</div>
 		
 		
 		

@@ -40,7 +40,7 @@
 		  <span class="icon-bar"></span>
 		  </div>
       </button>
-      <a class="navbar-brands" href="<?php echo home_url(); ?>/"><img src="<?php echo get_template_directory_uri(); ?>/img/matthews-designs-logo.png" width="125" height="55" alt=""/></a>
+      <a class="navbar-brands" href="<?php echo home_url(); ?>/"><img src="<?php echo get_template_directory_uri(); ?>/img/matthews-designs-logo.svg" width="125" height="55" alt=""/></a>
       </div>
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="black-background">

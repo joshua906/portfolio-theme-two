@@ -81,8 +81,6 @@
 		<div class="col-md-12">
 		<h4>GET IN TOUCH</h4>
 			<p><i class="fa fa-envelope" aria-hidden="true"></i> email: jm@matthewsdesigns.technology</p>
-			 <p><i class="fa fa-twitter" aria-hidden="true"></i> twitter: @jmatthews_12</p> 
-			   <p><i class="fa fa-facebook" aria-hidden="true"></i>facebook: @ilikematthewsdesigns</p> 
 			   <p><i class="fa fa-mobile" aria-hidden="true"></i> 214/422/8721</p>
 		</div>
 	</div>

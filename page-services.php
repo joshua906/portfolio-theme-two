@@ -7,7 +7,7 @@
 				<div class="row">
 					<div class="col-md-12">
 						<h1 class="matthews-headline">Lets work together</h1>
-						<hr class="text-left">
+						<hr style=" float: left; margin: 10px 10px 10px 0px"><br><br>
 						<p>Are you an ambitious instructor looking to grow your business through your website?</p>
 
 						<p>Are you a service business owner who wants to establish s strong online presence while convincing your viewrs that you are an authority in your industry?</p>
@@ -69,12 +69,13 @@
 		</div>
 		
 	<!-- my process -->
-	<div class="my-process caption">
+	<div class="my-process">
+	<div class="caption">
 		<div class="container-post">
 			<div class="row">
 				<div class="col-md-12">
 					<h1 class="matthews-headline">My process</h1>
-					<hr class="text-left">
+					<hr style=" float: left; margin: 10px 10px 10px 0px"><br><br>
 					
 					<h3 class="blue-heading">1. Strategy & Research</h3>
 					<p>During our strategy session we will identify your business goals and what needs to be achieved to have a successful project. Then, through research and exploration we identify who your audience is and how we can develop a strategy that will reach and convert them.</p>
@@ -90,7 +91,7 @@
 			</div>
 		</div>
 	</div>
-	
+</div>
 	<div class="container-post">
 	<hr>
 	</div>

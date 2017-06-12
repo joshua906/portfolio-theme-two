@@ -1,41 +1,6 @@
 <?php get_header(); ?>
 
-<!-- Home header 
-	
-  <div class="featured-top">
-                    
-                
-    
-                <!-- .post-thumbnail 
-                <div class="post-thumbnail" id="hero">
-                         
-                                
-                    <!-- .entry-header 
-                    <header class="entry-header">
-                        
-                         <div class="container">
-                         	<div class="row">
-                         		<div class="col-xs-12 col-md-8">
-                         		<div class="content-hero caption-hero">
-                   					<h1 class="small-font-family-white"><b>I design custom websites & apps for Instructors and Service Business 
-Professionals</b></h1>
-									<!--<h1 class="font-change">I help Instructors and service businesses increase their sales, course signups, and subscribers through website design</h1>
-									<a href="<?php echo get_page_link(8); ?>" class="button-center"><button>VIEW PROJECTS &#8594;</button></a>
-								</div>
-                         		</div>
-                         	</div>
-                         </div>               
-                        <!-- .entry-meta 
 
-
-                        
-                    </header>
-                    <!-- .entry-header 
-                    
-                </div>
-            	<!-- .post-thumbnail 
-                
-</div>
             <!-- .featured-top -->
             			<div class="text-hero">	
         				<div class="container">
